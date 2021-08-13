@@ -1,0 +1,54 @@
+@import '_reset';
+@import '_variables';
+@import "../node_modules/ol/ol.css";
+
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    src: local('Aktiv Grotesk Light'), local('Aktiv-Grotesk-Light'),
+        url('assets/fonts/AktivGroteskCorp-Light.woff2') format('woff2'),
+        url('assets/fonts/AktivGroteskCorp-Light.woff') format('woff'),
+        url('assets/fonts/AktivGroteskCorp-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+html {
+    height: 100% !important;
+}
+
+body {
+    height: 100% !important;
+    background-color: white;
+    font-size: $font-size-normal;
+
+    font-family: 'Aktiv Grotesk', sans-serif !important;
+    font-style: normal;
+    font-weight: 200;
+}
+
+.standard-link-btn {
+    color: #FFFFFF;
+    background-color: $text-accent;
+    text-align: center;
+    font-size: 0.7rem;
+    text-decoration: none;
+    transition: background-color 0.4s ease-out;
+    padding: 0.5rem 3rem;
+
+    &:hover {
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: lighten($color: $text-accent, $amount: 5);
+    }
+}
+
+.standard-link-dark {
+    color: #000000;
+    text-decoration: none;
+    transition: color .4s ease-out;
+
+    &:hover {
+        text-decoration: none;
+        color: $text-accent;
+    }
+}

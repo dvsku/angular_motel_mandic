@@ -1,0 +1,30 @@
+<div #detector class="header-detector" [ngStyle]="{'display': (!dynamicNav) ? 'none' : null}" snInViewport
+    [inViewportOptions]="{ threshold: 0 }" (inViewportChange)="onIntersection($event, detector)"></div>
+
+<nav class="navbar navbar-expand-lg header">
+    <div class="wrapper-small">
+        <a id="language-small" class="nav-link header-link">EN</a>
+        <div class="nav-link-separator">
+            <div></div>
+        </div>
+        <button class="navbar-toggler" type="button" (click)="toggleMenu()">
+            <fa-icon [icon]="faBars" class="navbar-toggler-icon"></fa-icon>
+        </button>
+    </div>
+
+    <a class="navbar-brand" routerLink="/"><img class="logo" src="/assets/logo2.svg" /></a>
+    <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
+        <div class="navbar-nav ml-auto">
+            <a routerLink="/" class="nav-link header-link">HOME</a>
+            <a routerLink="/accommodation" class="nav-link header-link">ACCOMMODATION</a>
+            <a routerLink="/restaurant" class="nav-link header-link">RESTAURANT</a>
+            <a routerLink="/special-offers" class="nav-link header-link">SPECIAL OFFERS</a>
+            <a routerLink="/contact" class="nav-link header-link">CONTACT</a>
+            <a routerLink="/faq" class="nav-link header-link">FAQ</a>
+            <div class="nav-link-separator d-none d-lg-flex">
+                <div></div>
+            </div>
+            <div id="language-large" class="nav-link header-link">EN</div>
+        </div>
+    </div>
+</nav>

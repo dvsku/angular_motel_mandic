@@ -1,0 +1,84 @@
+@import '../../../variables';
+
+.brand-icon {
+    font-size: 2.5rem;
+
+    &.facebook, &.twitter {
+        color: #78787B;
+        transition: color .3s ease-out;
+    }
+}
+
+.brand {
+    &:hover {
+        .brand-icon.facebook {
+            color: #405CA1;
+        }
+
+        .brand-icon.twitter {
+            color: #099CE5;
+        }
+    }
+}
+
+.sitemap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+    margin: 1rem 0rem 0rem 0rem;
+    border-top: 1px solid rgba(120, 120, 120, 0.3);
+    border-bottom: 1px solid rgba(120, 120, 120, 0.3);
+    
+    @include media-breakpoint-up(lg) {
+        flex-direction: row;
+        padding: 2rem 0rem;
+    }
+
+    > a {
+        font-size: .8rem;
+        color: #78787B;
+        text-decoration: none;
+        transition: color .3s ease-out;
+        width: 100%;
+        text-align: center;
+
+        &:hover {
+            color: #2D9386;
+        }
+    }
+
+    > a:not(:last-child) {
+        @include media-breakpoint-up(lg) {
+            margin-right: 1rem;
+        }
+    }
+}
+
+.footer-text {
+    color: #78787B;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+a {
+    font-size: .8rem;
+    color: #78787B;
+    text-decoration: none;
+    transition: color .3s ease-out;
+
+    &:hover {
+        color: #2D9386;
+    }
+}
+
+.social-media-title {
+    color: #78787B;
+    font-size: 1.5rem;
+    text-align: center;
+
+    @include media-breakpoint-up(lg) {
+        font-size: 1.8rem;
+    }
+}

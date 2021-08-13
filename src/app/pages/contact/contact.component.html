@@ -1,0 +1,58 @@
+<three-row-grid [dynamicNav]="false">
+    <div id="front"></div>
+    <div class="information-container" #container snInViewport [inViewportOptions]="{ threshold: .5 }"
+        (inViewportChange)="onIntersection($event, container)">
+        <div class="information">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.077416453021!2d19.723178715558944!3d45.50852017910158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x32611c2d4545a468!2sMotel+Mandic!5e0!3m2!1ssr!2s!4v1465040372037"
+                    frameborder="0"></iframe>
+            </div>
+            <div class="details">
+                <div class="address">
+                    Motel Mandić, HIGHWAY E-75 BB, Vrbas, Subotica - Novi Sad 86km
+                </div>
+                <div class="services">
+                    <div class="service">
+                        <div>
+                            <fa-icon [icon]="faMotel" class="icon"></fa-icon>
+                        </div>
+                        <div>00-24h motel</div>
+                    </div>
+                    <div class="service">
+                        <div>
+                            <fa-icon [icon]="faFuelStation" class="icon"></fa-icon>
+                        </div>
+                        <div>00-24h fuel station</div>
+                    </div>
+                    <div class="service">
+                        <div>
+                            <fa-icon [icon]="faStore" class="icon"></fa-icon>
+                        </div>
+                        <div>00-24h convenience store</div>
+                    </div>
+                    <div class="service">
+                        <div>
+                            <fa-icon [icon]="faRestaurant" class="icon"></fa-icon>
+                        </div>
+                        <div>07-23h restaurant</div>
+                    </div>
+                </div>
+                <div class="contacts">
+                    <div class="contact">
+                        <fa-icon [icon]="faPhone" class="icon"></fa-icon>021/723-266
+                    </div>
+                    <div class="contact">
+                        <fa-icon [icon]="faPhone" class="icon"></fa-icon>064/385-0741
+                    </div>
+                    <div class="contact">
+                        <fa-icon [icon]="faEnvelope" class="icon"></fa-icon>
+                        <a class="standard-link-dark"
+                            href="mailto:nikola.stojsin@hotmail.com">nikola.stojsin@hotmail.com</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</three-row-grid>

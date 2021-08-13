@@ -1,0 +1,49 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+// MIXINS
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+        @content;
+    }
+    @-moz-keyframes #{$name} {
+        @content;
+    }
+    @-ms-keyframes #{$name} {
+        @content;
+    }
+    @-o-keyframes #{$name} {
+        @content;
+    }
+    @keyframes #{$name} {
+        @content;
+    }
+}
+
+@mixin animation-fade-in-pop-down($name, $s_o, $e_o, $s_t, $e_t) {
+    @include keyframes($name) {
+        0% { opacity: $s_o; transform: translateY($s_t); }
+        100% { opacity: $e_o; transform: translateY($e_t); }
+    }
+}
+
+@mixin animation-fade-in-pop-x($name, $s_o, $e_o, $s_t, $e_t) {
+    @include keyframes($name) {
+        0% { opacity: $s_o; transform: translateX($s_t); }
+        100% { opacity: $e_o; transform: translateX($e_t); }
+    }
+}
+
+@mixin animation-opacity-fade-in($name) {
+    @include keyframes($name) {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+}
+
+@mixin animation-scale($name, $s_s, $e_s) {
+    @include keyframes($name) {
+        0% { transform: scale($s_s); }
+        100% { transform: scale($e_s); }
+    }
+}

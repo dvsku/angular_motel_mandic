@@ -1,0 +1,12 @@
+.three-row-layout {
+    display: grid;
+    grid-template-rows: 1fr auto
+}
+
+.three-row-layout-content {
+    grid-row: 1/2
+}
+    
+.three-row-layout-footer {
+    grid-row: 2/3
+}

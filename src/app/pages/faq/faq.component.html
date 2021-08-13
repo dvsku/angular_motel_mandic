@@ -1,0 +1,83 @@
+<three-row-grid [dynamicNav]="false">
+    <div id="front"></div>
+    <div class="faq-container" #container snInViewport [inViewportOptions]="{ threshold: .45 }"
+        (inViewportChange)="onIntersection($event, container)">
+        <div class="general-questions">
+            <div class="text-center text-lg-right">GENERAL QUESTIONS</div>
+            <div>
+                <div class="question">
+                    <div>What time is check in/check out?</div>
+                    <div class="answer">
+                        Check in time is non-stop, while you can check out until 12am.
+                    </div>
+                </div>
+
+                <div class="question">
+                    <div>Can I check in late in the evening?</div>
+                    <div class="answer">
+                        We are open 24 hours a day, so there is no problem with you arriving late, as there is always
+                        somebody at the reception.
+                    </div>
+                </div>
+
+                <div class="question">
+                    <div>Do you have WiFi?</div>
+                    <div class="answer">
+                        Yes, we do.
+                    </div>
+                </div>
+
+                <div class="question">
+                    <div>Do you have parking?</div>
+                    <div class="answer">
+                        Yes, we do.
+                    </div>
+                </div>
+
+                <div class="question">
+                    <div>Do you have a pool?</div>
+                    <div class="answer">
+                        No, we don't.
+                    </div>
+                </div>
+
+                <div class="question">
+                    <div>Is there daily housekeeping?</div>
+                    <div class="answer">
+                        Yes, there is. Daily housekeeping is from 7am - 7pm.
+                    </div>
+                </div>
+
+                <div class="question">
+                    <div>Do you allow pets?</div>
+                    <div class="answer">
+                        Yes, we do allow pets inside the rooms.
+                    </div>
+                </div>
+
+                <div class="question">
+                    <div>Can I smoke in the room?</div>
+                    <div class="answer">
+                        No, but every room comes with a balcony, so if you have a need for a smoke you can go there.
+                    </div>
+                </div>
+
+                <div class="question">
+                    <div>Is there a safe in the room?</div>
+                    <div class="answer">
+                        Yes, there is a safe in every room.
+                    </div>
+                </div>
+
+                <div class="question">
+                    <div>Is there a shop in/near the motel?</div>
+                    <div class="answer">
+                        Yes, there is.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</three-row-grid>

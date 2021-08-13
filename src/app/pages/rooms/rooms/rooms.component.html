@@ -1,0 +1,81 @@
+<three-row-grid [dynamicNav]="false">
+    <div id="front"></div>
+    <div id="information">
+        <div #information class="d-flex flex-column check-in-text" snInViewport [inViewportOptions]="{ threshold: .4 }"
+            (inViewportChange)="onIntersection($event, information)">
+            <div>Check in at any time. Check out by 12am. Rooms are pet friendly. Smoking is forbidden inside the rooms
+                but not on the balcony.</div>
+        </div>
+    </div>
+    <div class="d-flex flex-column">
+        <div class="room flex-column flex-lg-row" #room_1 snInViewport [inViewportOptions]="{ threshold: .35 }"
+            (inViewportChange)="onIntersection($event, room_1)">
+            <div class="room-image">
+                <img src="/assets/rooms.jpeg">
+            </div>
+            <div class="room-description">
+                <div class="room-title right-to-left">Single bed room</div>
+                <ul class="pl-4">
+                    <li>1 SINGLE BED</li>
+                    <li>FREE WIFI</li>
+                    <li>FREE PARKING</li>
+                    <li>MINI-REFRIGERATOR</li>
+                    <li>SATELITTE TV</li>
+                    <li>PRIVATE BATHROOM WITH SHOWER</li>
+                    <li>HAIR DRYER</li>
+                    <li>AIR CONDITIONING/HEATING</li>
+                </ul>
+                <div class="room-price">$25 PER NIGHT</div>
+                <div class="d-flex">
+                    <a href="" class="room-book standard-link-btn">CONTACT US</a>
+                </div>
+            </div>
+        </div>
+        <div class="room flex-column-reverse flex-lg-row" #room_2 snInViewport [inViewportOptions]="{ threshold: .35 }"
+            (inViewportChange)="onIntersection($event, room_2)">
+            <div class="room-description">
+                <div class="room-title left-to-right text-lg-right w-100">Three bed room</div>
+                <ul class="w-100 text-lg-right pr-lg-4 pl-4 pl-lg-0">
+                    <li>1 SINGLE BED AND 1 2-PERSON BED</li>
+                    <li>FREE WIFI</li>
+                    <li>FREE PARKING</li>
+                    <li>MINI-REFRIGERATOR</li>
+                    <li>SATELITTE TV</li>
+                    <li>PRIVATE BATHROOM WITH SHOWER</li>
+                    <li>HAIR DRYER</li>
+                    <li>AIR CONDITIONING/HEATING</li>
+                </ul>
+                <div class="room-price w-100 text-lg-right">$75 PER NIGHT</div>
+                <div class="d-flex flex-lg-row-reverse w-100">
+                    <a href="" class="room-book standard-link-btn">CONTACT US</a>
+                </div>
+            </div>
+            <div class="room-image">
+                <img src="/assets/rooms.jpeg">
+            </div>
+        </div>
+        <div class="room flex-column flex-lg-row" #room_3 snInViewport [inViewportOptions]="{ threshold: .35 }"
+            (inViewportChange)="onIntersection($event, room_3)">
+            <div class="room-image">
+                <img src="/assets/rooms.jpeg">
+            </div>
+            <div class="room-description">
+                <div class="room-title right-to-left">Apartment</div>
+                <ul class="pl-4">
+                    <li>2 SINGLE BEDS AND 2 2-PERSON BEDS</li>
+                    <li>FREE WIFI</li>
+                    <li>FREE PARKING</li>
+                    <li>MINI-REFRIGERATOR</li>
+                    <li>SATELITTE TV</li>
+                    <li>PRIVATE BATHROOM WITH SHOWER</li>
+                    <li>HAIR DRYER</li>
+                    <li>AIR CONDITIONING/HEATING</li>
+                </ul>
+                <div class="room-price">$120 PER NIGHT</div>
+                <div class="d-flex">
+                    <a href="" class="standard-link-btn room-book">CONTACT US</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</three-row-grid>

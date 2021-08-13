@@ -1,0 +1,333 @@
+@import '../../../variables';
+@import '../../../animations';
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// FRONT
+/////////////////////////////////////////////////////////////////////////////////////////
+
+#front {
+    position: relative;
+    height: 100vh;
+    min-height: -webkit-fill-available;
+    background: url('/assets/motel-front4.jpeg') no-repeat center 30%;
+    background-size: cover;
+    z-index: 996;
+    
+    .overlay {
+        position: absolute;
+        top: 3.625rem;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 3.625rem);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+
+        @include media-breakpoint-up(lg) {
+            top: 6.25rem;
+            height: calc(100% - 6.25rem);
+            padding: 1rem 4rem;
+        }
+
+        .contact {
+            display: flex;
+            flex-direction: row-reverse;
+
+
+            > div:first-child {
+                background-color: rgba($color: #FFFFFF, $alpha: 0.6)
+            }
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 0rem;
+            text-align: right;
+
+            @include media-breakpoint-up(lg) {
+                padding-bottom: 2rem;
+            }
+
+            > div:first-child {
+                color: #FFFFFF;
+                font-size: 1.5rem;
+                font-style: unset;
+                font-weight: 600;
+                letter-spacing: 0.15rem;
+                line-height: 2rem;
+                text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+
+                @include media-breakpoint-up(lg) {
+                    font-size: 2.5rem;
+                }
+            }
+
+            > div:last-child {
+                color: #FFFFFF;
+                font-size: 1.5rem;
+                font-style: unset;
+                font-weight: 400;
+                letter-spacing: 0.10rem;
+                text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+
+                @include media-breakpoint-up(lg) {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// INTRODUCTION
+/////////////////////////////////////////////////////////////////////////////////////////
+
+#introduction {
+    .introduction-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+
+        @include media-breakpoint-up(lg) {
+            opacity: 0;
+            transform: translateY(-50%);
+        }
+
+        > div:first-child {
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            padding: 3.5rem 1rem 1.5rem 1rem;
+            text-align: center;
+
+            @include media-breakpoint-up(lg) {
+                font-size: 1.5rem;
+                padding: 3.5rem 0 1.5rem 0;
+            }
+           
+        }
+    
+        > div:last-child {
+            font-size: 1rem;
+            padding: 0.5rem 1.5rem 3.5rem 1.5rem;
+            text-align: center;
+
+            @include media-breakpoint-up(lg) {
+                font-size: 1.3rem;
+                padding: 0.5rem 10rem 3.5rem 10rem;
+            }
+        }
+
+        &.visible {
+            @include media-breakpoint-up(lg) {
+                @include animation(animation-home-introduction, 0.8s, ease-in-out, 0s, forwards);
+            }
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// SERVICES
+/////////////////////////////////////////////////////////////////////////////////////////
+
+#services {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    @include media-breakpoint-up(md) {
+        flex-direction: row;
+    }
+
+    .rooms-container, .restaurant-container {
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            flex-direction: row-reverse;
+            z-index: 999;
+            color: #FFFFFF;
+            text-decoration: none;
+            text-align: right;
+
+            > div {
+                padding: 0 1rem 2.5rem 0;
+
+                @include media-breakpoint-up(lg) {
+                    padding: 0 2.5rem 2.5rem 0;
+                }
+            }
+
+            &:hover {
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .rooms-container {
+        .image {
+            background: url('/assets/rooms.jpeg') no-repeat center center;
+            background-size: cover;
+        }
+    }
+
+    .restaurant-container {
+        .image {
+            background: url('/assets/restaurant.jpeg') no-repeat center center;
+            background-size: cover;
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// SPECIAL OFFERS
+/////////////////////////////////////////////////////////////////////////////////////////
+
+#special-offers {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+    .offers-image-container {
+        .image {
+            background: url('/assets/special-offers.jpeg') no-repeat center center;
+            background-size: cover;
+        }
+    }
+
+    .offers-container {
+        flex: 50%;
+        height: 75vh;
+        z-index: 998;
+        overflow: hidden;
+        position: relative;
+
+        .overlay {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            color: #000000;
+            text-decoration: none;
+            text-align: left;
+            justify-content: space-between;
+
+            > div:first-child {
+                flex-grow: 1;
+                padding: 2rem 2.5rem 0 4rem;
+            }
+
+            > div:last-child {
+                padding: 0 2.5rem 2.5rem 0;
+            }
+
+            &:hover {
+                color: #000000;
+            }
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// UTILITIES
+/////////////////////////////////////////////////////////////////////////////////////////
+
+.container-with-zoom-image {
+    height: 50vh;
+    z-index: 998;
+    overflow: hidden;
+    position: relative;
+
+    @include media-breakpoint-up(md) {
+        flex: 50%;
+        height: 75vh;
+        opacity: 0;
+    }
+
+    > a {
+        height: 75vh;
+        width: 50vw;
+        overflow: hidden;
+
+        > .image {
+            width: 100%;
+            height: 100%;
+
+            @include media-breakpoint-up(lg) {
+                transform: scale(1);
+                transition: transform .4s ease-out;
+            }
+        }
+    }
+
+    &:hover {
+        > a {
+            > .image {
+                
+                @include media-breakpoint-up(lg) {
+                    transform: scale(1.03);
+                    transform-origin: 50% 50%;
+                }
+            }
+        }
+    }
+
+    &.visible {
+        opacity: 1;
+
+        @include media-breakpoint-up(lg) {
+            opacity: 0;
+            @include animation(animation-opacity-fade-in, 1s, ease-out, 0s, forwards);
+        }
+    }
+}
+
+
+.contact-check {
+    color: $text-accent;
+}
+
+.contact-text {
+    letter-spacing: 0.10rem;
+}
+
+.service-title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: .25rem;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+
+    @include media-breakpoint-up(lg) {
+        font-size: 1.5rem;
+        letter-spacing: .25rem;
+    }
+}
+
+.service-description {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .20rem;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+}
+
+.special-offers-title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: .25rem;
+}
+
+.special-offer-title {
+    font-size: 1.15rem;
+    font-weight: 400;
+    letter-spacing: .25rem;
+}
+
+.special-offer-description {
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: .20rem;
+}

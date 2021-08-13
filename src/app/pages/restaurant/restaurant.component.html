@@ -1,0 +1,161 @@
+<three-row-grid [dynamicNav]="false">
+    <div id="front"></div>
+    <div class="restaurant-container" #container snInViewport [inViewportOptions]="{ threshold: .45 }"
+        (inViewportChange)="onIntersection($event, container)">
+        <div class="category soups">
+            <div class="category-name">
+                Soups
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="product-name">
+                        Teleca corba
+                    </div>
+                    <div class="product-price">
+                        120 RSD / 1 €
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="category goulash">
+            <div class="category-name">
+                Goulash
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="product-name">
+                        Goveđi gulaš
+                    </div>
+                    <div class="product-price">
+                        300 RSD / 2.5 €
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="category meat">
+            <div class="category-name">
+                Grilled meat
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="product-name">
+                        Pljeskavica
+                    </div>
+                    <div class="product-price">
+                        290 RSD / 2.5 €
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        Pileće belo
+                    </div>
+                    <div class="product-price">
+                        290 RSD / 2.5 €
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        Pileći batak
+                    </div>
+                    <div class="product-price">
+                        290 RSD / 2.5 €
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        Ćevapčići
+                    </div>
+                    <div class="product-price">
+                        360 RSD / 3 €
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        Pileći bataci
+                    </div>
+                    <div class="product-price">
+                        400 RSD / 3.4 €
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        Pileće belo - porcija
+                    </div>
+                    <div class="product-price">
+                        430 RSD / 3.6 €
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        Mešano meso
+                    </div>
+                    <div class="product-price">
+                        470 RSD / 3.9 €
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        Dimljena vešalica
+                    </div>
+                    <div class="product-price">
+                        470 RSD / 3.9 €
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        Bečka šnicla
+                    </div>
+                    <div class="product-price">
+                        470 RSD / 3.9 €
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        Šnicla sa šampinjonima
+                    </div>
+                    <div class="product-price">
+                        470 RSD / 3.9 €
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="category salads">
+            <div class="category-name">
+                Salads
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="product-name">
+                        Šopska salata
+                    </div>
+                    <div class="product-price">
+                        180 RSD / 1.5 €
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-name">
+                        Mešana salata
+                    </div>
+                    <div class="product-price">
+                        180 RSD / 1.5 €
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="category sides">
+            <div class="category-name">
+                Sides
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="product-name">
+                        Pomfrit
+                    </div>
+                    <div class="product-price">
+                        120 RSD / 1 €
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</three-row-grid>

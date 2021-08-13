@@ -1,0 +1,26 @@
+<three-row-grid [dynamicNav]="false">
+    <div id="front"></div>
+    <div class="special-offers-container" #container snInViewport [inViewportOptions]="{ threshold: .5 }"
+        (inViewportChange)="onIntersection($event, container)">
+        <div class="special-offers">
+            <div class="special-offer">
+                <div class="special-offer-images">
+                    <div class="multiple">
+                        <fa-icon [icon]="faBus" class="brand-icon twitter"></fa-icon>
+                        <fa-icon [icon]="faTruck" class="brand-icon twitter"></fa-icon>
+                    </div>
+                </div>
+                <div class="special-offer-details">
+                    <div class="special-offer-name">
+                        TRUCK AND BUS DRIVERS
+                    </div>
+                    <div class="special-offer-description">
+                        We are providing some special offers for truck and bus drivers. Truck drivers get a free shower,
+                        and bus drivers get 3 free meals and 3 free drinks.
+                        Please come to the reception to get a bonus.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</three-row-grid>
