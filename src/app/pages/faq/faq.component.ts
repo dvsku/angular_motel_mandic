@@ -1,16 +1,9 @@
-import { Component, Renderer2 } from '@angular/core';
+import { Component } from '@angular/core';
+import { AbstractStandardComponent } from 'src/app/_abstract/abstract-standard/abstract-standard.component';
 
 @Component({
     selector: 'app-faq',
     templateUrl: './faq.component.html',
     styleUrls: ['./faq.component.scss']
 })
-export class FaqComponent {
-    constructor(private renderer: Renderer2) {}
-
-    public onIntersection(visible, target): void {
-        if (visible && !target.classList.contains('visible')) {
-            this.renderer.addClass(target, 'visible');
-        }
-    }
-}
+export class FaqComponent extends AbstractStandardComponent {}

@@ -1,19 +1,12 @@
-import { Component, Renderer2 } from '@angular/core';
+import { Component } from '@angular/core';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import { AbstractStandardComponent } from 'src/app/_abstract/abstract-standard/abstract-standard.component';
 
 @Component({
     selector: 'app-home',
     templateUrl: './home.component.html',
     styleUrls: ['./home.component.scss']
 })
-export class HomeComponent {
+export class HomeComponent extends AbstractStandardComponent {
     public faCheck = faCheck;
-
-    constructor(private renderer: Renderer2) {}
-
-    public onIntersection(visible, target): void {
-        if (visible && !target.classList.contains('visible')) {
-            this.renderer.addClass(target, 'visible');
-        }
-    }
 }

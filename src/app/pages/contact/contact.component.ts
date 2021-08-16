@@ -1,21 +1,13 @@
-import {
-    AfterViewInit,
-    Component,
-    ElementRef,
-    OnChanges,
-    OnInit,
-    Renderer2,
-    SimpleChanges,
-    ViewChild
-} from '@angular/core';
+import { Component } from '@angular/core';
 import { faEnvelope, faGasPump, faHotel, faPhoneAlt, faStoreAlt, faUtensils } from '@fortawesome/free-solid-svg-icons';
+import { AbstractStandardComponent } from 'src/app/_abstract/abstract-standard/abstract-standard.component';
 
 @Component({
     selector: 'app-contact',
     templateUrl: './contact.component.html',
     styleUrls: ['./contact.component.scss']
 })
-export class ContactComponent implements AfterViewInit {
+export class ContactComponent extends AbstractStandardComponent {
     public faPhone = faPhoneAlt;
     public faEnvelope = faEnvelope;
 
@@ -23,21 +15,4 @@ export class ContactComponent implements AfterViewInit {
     public faFuelStation = faGasPump;
     public faStore = faStoreAlt;
     public faRestaurant = faUtensils;
-
-    @ViewChild('container')
-    container: ElementRef;
-
-    constructor(private renderer: Renderer2) {
-        console.log('a');
-    }
-
-    public onIntersection(visible, target): void {
-        if (visible && !target.classList.contains('visible')) {
-            this.renderer.addClass(target, 'visible');
-        }
-    }
-
-    ngAfterViewInit(): void {
-        console.log(this.container.nativeElement.classList.contains('visible'));
-    }
 }

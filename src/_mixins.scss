@@ -47,3 +47,18 @@
         100% { transform: scale($e_s); }
     }
 }
+
+@mixin animation-overlay-fade-out($name) {
+    @include keyframes($name) {
+        0% { opacity: 1; }
+        100% { opacity: 0; visibility: hidden; }
+    }
+}
+
+@mixin animation-logo-scale-loop($name) {
+    @include keyframes($name) {
+        0% { transform: scale(0.9); }
+        50% { transform: scale(1);}
+        100% { transform: scale(1.1); }
+    }    
+}

@@ -16,8 +16,8 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { FaqComponent } from './pages/faq/faq.component';
 import { RestaurantComponent } from './pages/restaurant/restaurant.component';
 import { SpecialOffersComponent } from './pages/special-offers/special-offers.component';
-import { RouteReuseStrategy } from '@angular/router';
-import { ReuseStrategy } from './common/reuse-strategy';
+import { LoadingOverlayComponent } from './components/loading-overlay/loading-overlay.component';
+import { AbstractStandardComponent } from './_abstract/abstract-standard/abstract-standard.component';
 
 @NgModule({
     declarations: [
@@ -30,10 +30,12 @@ import { ReuseStrategy } from './common/reuse-strategy';
         ContactComponent,
         FaqComponent,
         RestaurantComponent,
-        SpecialOffersComponent
+        SpecialOffersComponent,
+        LoadingOverlayComponent,
+        AbstractStandardComponent
     ],
     imports: [BrowserModule, AppRoutingModule, FontAwesomeModule, NgbModule, InViewportModule],
-    providers: [{ provide: RouteReuseStrategy, useClass: ReuseStrategy }],
+    providers: [],
     bootstrap: [AppComponent]
 })
 export class AppModule {}

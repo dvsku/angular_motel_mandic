@@ -8,6 +8,14 @@
     animation: #{$name} $duration #{$timing-function} $delay #{$direction};
 }
 
+@mixin animation-loop($name, $duration, $timing-function, $delay) {
+    -webkit-animation: #{$name} $duration #{$timing-function} $delay infinite alternate;
+    -moz-animation: #{$name} $duration #{$timing-function} $delay infinite alternate;
+    -ms-animation: #{$name} $duration #{$timing-function} $delay infinite alternate;
+    -o-animation: #{$name} $duration #{$timing-function} $delay infinite alternate;
+    animation: #{$name} $duration #{$timing-function} $delay infinite alternate;
+}
+
 
 /////////////////////////////////////////////////////////////////////////////////////////
 // DEFAULT
@@ -25,3 +33,7 @@
 
 @include animation-fade-in-pop-x(animation-room-title-right-to-left, 0, 1, 50%, 0%);
 @include animation-fade-in-pop-x(animation-room-title-left-to-right, 0, 1, -50%, 0%);
+
+@include animation-overlay-fade-out(animation-overlay-fade-out);
+
+@include animation-logo-scale-loop(animation-overlay-logo)
