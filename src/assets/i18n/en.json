@@ -29,11 +29,11 @@
         },
         "INTRODUCTION": {
             "TITLE": "We are like everyone, but not everyone is like us",
-            "DESCRIPTION": "Motel Mandić is located on Highway e-75, 22km from Novi Sad (100km from Belgrade) and 86km from Subotica, has been welcoming guests from all around the World for over 20 years. Guests who have stayed at our motel gave us only a words of praise for our hard work to make their stay as best as possible. We hope that you will also have a beautiful time at our motel."
+            "DESCRIPTION": "Motel Mandić is located on Highway e-75, 22km from Novi Sad (100km from Belgrade) and 86km from Subotica, has been welcoming guests from all around the World for over 20 years. Guests who have stayed at our motel gave us only a words of praise for our hard work to make their stay as best as possible. We hope that you will also have a wonderful time at our motel."
         },
         "SERVICES": {
-            "ROOMS": "ROOMS & APPARTMENTS",
-            "ROOMS_SEE": "SEE ROOMS & APPARTMENTS",
+            "ROOMS": "ROOMS & APARTMENTS",
+            "ROOMS_SEE": "SEE ROOMS & APARTMENTS",
             "RESTAURANT": "RESTAURANT",
             "RESTAURANT_SEE": "SEE RESTAURANT"
         }
@@ -43,7 +43,7 @@
         "PARKING": "FREE PARKING",
         "WIFI": "FREE WIFI",
         "FRIDGE": "MINI-REFRIGERATOR",
-        "TV": "SATELITE TV",
+        "TV": "SATELLITE TV",
         "BATHROOM": "PRIVATE BATHROOM WITH SHOWER",
         "HAIR_DRYER": "HAIR DRYER",
         "AIR_CON": "AIR CONDITIONING/HEATING",
@@ -59,7 +59,7 @@
         "GOULASH": "Goulash",
         "MEAT": "Grilled meat",
         "SALADS": "Salads",
-        "SIDES": "Sides"
+        "SIDES": "Side dishes"
     },
     "SPECIAL_OFFERS": {
         "TB_TITLE": "TRUCK AND BUS DRIVERS",

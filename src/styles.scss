@@ -76,6 +76,13 @@ body {
     }
 }
 
+.flag {
+    width: 1.25rem;
+    height: auto;
+    display: inline-block;
+    margin-right: .625rem;
+}
+
 .modal-dialog-standard {
     .modal-dialog {
         max-width: 100% !important;

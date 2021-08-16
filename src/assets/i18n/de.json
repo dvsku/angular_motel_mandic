@@ -1,0 +1,98 @@
+{
+    "COMMON": {
+        "NAME": "MOTEL MANDIĆ",
+        "HOME": "STARTSEITE",
+        "ACCOMMODATION": "UNTERKUNFT",
+        "RESTAURANT": "RESTAURANT",
+        "SPECIAL_OFFERS": "BESONDERE ANGEBOTE",
+        "CONTACT": "KONTAKT",
+        "FAQ": "HÄUFIG GESTELLTE FRAGEN",
+        "CONTACT_US": "KONTAKTIERE UNS",
+        "PER_NIGHT": "PRO NACHT"
+    },
+    "HEADER": {
+        "LANGUAGE": "DE",
+        "LANGUAGE_SELECT": "Sprache auswählen"
+    },
+    "FOOTER": {
+        "SOCIAL_MEDIA": "FINDEN SIE UNS AUF SOZIALE NETZWERKE",
+        "ADDRESS": "Motel Mandić, AUTOBAHN E-75 BB, Vrbas, Subotica - Novi Sad 86km"
+    },
+    "HOME": {
+        "DIALOG": {
+            "PARKING": "Frei Parkplatz",
+            "WIFI": "Frei Wifi",
+            "FUEL_STATION": "Tankstelle"
+        },
+        "INFO": {
+            "DESCRIPTION": "RESTAURANT & UNTERKUNFT"
+        },
+        "INTRODUCTION": {
+            "TITLE": "Wir sind wie alle, aber nicht alle sind wie wir",
+            "DESCRIPTION": "Das Motel Mandić liegt an der Autobahn e-75, 22 km von Novi Sad (100 km von Belgrad) und 86 km von Subotica entfernt und empfängt seit über 20 Jahren Gäste aus der ganzen Welt. Gäste, die in unserem Motel übernachtet haben, haben uns für unsere harte Arbeit gelobt, ihren Aufenthalt so angenehm wie möglich zu gestalten. Wir hoffen, dass auch Sie eine schöne Zeit in unserem Motel verbringen werden."
+        },
+        "SERVICES": {
+            "ROOMS": "ZIMMER & WOHNUNGEN",
+            "ROOMS_SEE": "SIEHE ZIMMER & WOHNUNGEN",
+            "RESTAURANT": "RESTAURANT",
+            "RESTAURANT_SEE": "SIEHE RESTAURANT"
+        }
+    },
+    "ACCOMMODATION": {
+        "DESCRIPTION": "Check in at any time. Check out by 12am. Rooms are pet friendly. Smoking is forbidden inside the rooms but not on the balcony.",
+        "PARKING": "FREI PARKPLATZ",
+        "WIFI": "FREI WIFI",
+        "FRIDGE": "MINIKÜHLSCHRANK",
+        "TV": "SATELLITEN FERNSEHEN",
+        "BATHROOM": "BADEZIMMER MIT DUSCHE",
+        "HAIR_DRYER": "HAARTROCKNER",
+        "AIR_CON": "KLIMAANLAGE/HEIZUNG",
+        "ONE_BED_ROOM": "Zimmer mit einem Bett",
+        "ONE_BED": "1 EINZELBETT",
+        "THREE_BED_ROOM": "Zimmer mit drei Betten",
+        "THREE_BED": "1 EINZELBETT & 1 ZWEI-PERSONEN-BETT",
+        "APARTMENT": "Apartment",
+        "APARTMENT_BED": "2 EINZELBETTEN & 2 ZWEI-PERSONEN-BETTEN"
+    },
+    "RESTAURANT": {
+        "SOUPS": "Suppen",
+        "GOULASH": "Gulasch",
+        "MEAT": "Gegrilltes Fleisch",
+        "SALADS": "Salate",
+        "SIDES": "Beilagen"
+    },
+    "SPECIAL_OFFERS": {
+        "TB_TITLE": "LKW- UND BUSFAHRER",
+        "TB_DESCRIPTION": "Wir haben spezielle Angebote für LKW- und Busfahrer. LKW-Fahrer erhalten eine kostenlose Dusche und Busfahrer erhalten 3 kostenlose Mahlzeiten und 3 kostenlose Getränke. Bitte kommen Sie zur Rezeption, um den Bonus zu erhalten."
+    },
+    "CONTACT": {
+        "ADDRESS": "Motel Mandić, AUTOBAHN E-75 BB, Vrbas, Subotica - Novi Sad 86km",
+        "SERVICE_MOTEL": "00-24h motel",
+        "SERVICE_FUEL_STATION": "00-24h tankstelle",
+        "SERVICE_CONVENIENCE_STORE": "00-24h gemischtwarenladen",
+        "SERVICE_RESTAURANT": "07-23h restaurant"
+    },
+    "FAQ": {
+        "GENERAL_QUESTIONS": "ALLGEMEINE FRAGEN",
+        "Q_1": "Wann ist Check-in / Check-out?",
+        "A_1": "Die Check-in-Zeit ist durchgehend, während Sie bis 12 Uhr auschecken können.",
+        "Q_2": "Kann ich spät in der Nacht einchecken?",
+        "A_2": "Wir haben 24 Stunden am Tag geöffnet. Wenn Sie also zu spät ankommen, ist dies kein Problem, da immer jemand an der Rezeption ist.",
+        "Q_3": "Haben sie WIFI?",
+        "A_3": "Ja, tun wir.",
+        "Q_4": "Haben Sie Parkplätze?",
+        "A_4": "Ja, tun wir.",
+        "Q_5": "Haben Sie ein Schwimmbad?",
+        "A_5": "Nein, wir nicht.",
+        "Q_6": "Gibt es eine tägliche Zimmerreinigung?",
+        "A_6": "Ja da ist. Der tägliche Reinigungsservice ist von 7 bis 19 Uhr.",
+        "Q_7": "Erlauben Sie Haustiere?",
+        "A_7": "Ja, wir erlauben Haustiere in den Zimmern.",
+        "Q_8": "Darf ich im Zimmer rauchen?",
+        "A_8": "Nein, aber jedes Zimmer hat einen Balkon. Wenn Sie also rauchen müssen, können Sie dorthin gehen.",
+        "Q_9": "Gibt es einen Safe im Zimmer?",
+        "A_9": "Ja, in jedem Zimmer befindet sich ein Safe.",
+        "Q_10": "Gibt es ein Geschäft im / in der Nähe des Motels?",
+        "A_10": "Ja da ist."
+    }
+}

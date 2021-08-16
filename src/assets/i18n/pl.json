@@ -1,0 +1,98 @@
+{
+    "COMMON": {
+        "NAME": "MOTEL MANDIĆ",
+        "HOME": "STRONA GŁÓWNA",
+        "ACCOMMODATION": "ZAKWATEROWANIE",
+        "RESTAURANT": "RESTAURACJA",
+        "SPECIAL_OFFERS": "SPECJALNE OFERTY",
+        "CONTACT": "KONTAKT",
+        "FAQ": "CZĘSTO ZADAWANE PYTANIA",
+        "CONTACT_US": "SKONTAKTUJ SIĘ Z NAMI",
+        "PER_NIGHT": "CO NOC"
+    },
+    "HEADER": {
+        "LANGUAGE": "PL",
+        "LANGUAGE_SELECT": "Wybierz język"
+    },
+    "FOOTER": {
+        "SOCIAL_MEDIA": "ZNAJDŹ NAS W MEDIACH SPOŁECZNOŚCIOWYCH",
+        "ADDRESS": "Motel Mandić, AUTOSTRADA E-75 BB, Vrbas, Subotica - Novi Sad 86km"
+    },
+    "HOME": {
+        "DIALOG": {
+            "PARKING": "Darmowy Parking",
+            "WIFI": "Darmowe WiFi",
+            "FUEL_STATION": "Stacja benzynowa"
+        },
+        "INFO": {
+            "DESCRIPTION": "RESTAURACJA I NOCLEGI"
+        },
+        "INTRODUCTION": {
+            "TITLE": "Jesteśmy jak wszyscy, ale nie każdy jest taki jak my",
+            "DESCRIPTION": "Motel Mandić znajduje się przy autostradzie E-75, 22 km od Novi Sad (100 km od Belgrad) i 86 km od Subotica, od ponad 20 lat przyjmuje gości z całego świata. Goście, którzy zatrzymali się w naszym motelu przekazali nam tylko słowa pochwały za naszą ciężką pracę, aby ich pobyt był jak najlepszy. Mamy nadzieję, że w naszym motelu również i Ty spędzisz wspaniałe chwile."
+        },
+        "SERVICES": {
+            "ROOMS": "POKOJE I APARTAMENTY",
+            "ROOMS_SEE": "ZOBACZ POKOJE I APARTAMENTY",
+            "RESTAURANT": "RESTAURACJA",
+            "RESTAURANT_SEE": "ZOBACZ RESTAURACJA"
+        }
+    },
+    "ACCOMMODATION": {
+        "DESCRIPTION": "Check in at any time. Check out by 12am. Rooms are pet friendly. Smoking is forbidden inside the rooms but not on the balcony.",
+        "PARKING": "DARMOWY PARKING",
+        "WIFI": "DARMOWE WIFI",
+        "FRIDGE": "MINI LODÓWKA",
+        "TV": "TELEWIZJA SATELITARNA",
+        "BATHROOM": "ŁAZIENKA Z PRYSZNICEM",
+        "HAIR_DRYER": "SUSZARKA DO WŁOSÓW",
+        "AIR_CON": "KLIMATYZACJA/OGRZEWANIE",
+        "ONE_BED_ROOM": "Pokój jednoosobowy",
+        "ONE_BED": "1 POJEDYNCZE ŁÓŻKO",
+        "THREE_BED_ROOM": "Pokój trzyosobowy",
+        "THREE_BED": "1 POJEDYNCZE ŁÓŻKO AND 1 ŁÓŻKO DWUOSOBOWE",
+        "APARTMENT": "Apartament",
+        "APARTMENT_BED": "2 POJEDYŃCZE ŁÓŻKA AND 2 ŁÓŻKA DWUOSOBOWE"
+    },
+    "RESTAURANT": {
+        "SOUPS": "Zupy",
+        "GOULASH": "Gulasz",
+        "MEAT": "Grillowane mięso",
+        "SALADS": "Sałatki",
+        "SIDES": "Przystawki"
+    },
+    "SPECIAL_OFFERS": {
+        "TB_TITLE": "KIEROWCY CIĘŻARÓWEK I AUTOBUSÓW",
+        "TB_DESCRIPTION": "Mamy specjalne oferty dla kierowców ciężarówek i autobusów. Kierowcy ciężarówek otrzymują darmowy prysznic, a kierowcy autobusów 3 darmowe posiłki i 3 darmowe napoje. Proszę przyjść do recepcji, aby otrzymać bonus."
+    },
+    "CONTACT": {
+        "ADDRESS": "Motel Mandić, AUTOSTRADA E-75 BB, Vrbas, Subotica - Novi Sad 86km",
+        "SERVICE_MOTEL": "00-24h motel",
+        "SERVICE_FUEL_STATION": "00-24h stacja benzynowa",
+        "SERVICE_CONVENIENCE_STORE": "00-24h sklep spożywczy",
+        "SERVICE_RESTAURANT": "07-23h restauracja"
+    },
+    "FAQ": {
+        "GENERAL_QUESTIONS": "OGÓLNE PYTANIA",
+        "Q_1": "O której godzinie jest zameldowanie/wymeldowanie?",
+        "A_1": "Odprawa trwa bez przerwy, a wymeldowanie może nastąpić do godziny 12:00.",
+        "Q_2": "Czy mogę się zameldować późnym wieczorem?",
+        "A_2": "Recepcja czynna jest 24 godziny na dobę, dzięki czemu możesz wchodzić o każdej porze.",
+        "Q_3": "Czy masz WIFI?",
+        "A_3": "Tak.",
+        "Q_4": "Czy masz parking?",
+        "A_4": "Tak.",
+        "Q_5": "Masz basen?",
+        "A_5": "Nie.",
+        "Q_6": "Czy istnieje codzienne sprzątanie?",
+        "A_6": "Tak. Codzienne sprzątanie odbywa się od 7:00 do 19:00.",
+        "Q_7": "Czy akceptujesz zwierzęta?",
+        "A_7": "Tak, dopuszczamy zwierzęta w pokojach.",
+        "Q_8": "Czy mogę palić w pokoju?",
+        "A_8": "Nie, ale każdy pokój ma balkon, więc jeśli masz ochotę na papierosa, możesz się tam wybrać.",
+        "Q_9": "Czy w pokoju jest sejf?",
+        "A_9": "Tak, w każdym pokoju jest sejf.",
+        "Q_10": "Czy w/w pobliżu motelu jest sklep?",
+        "A_10": "Tak."
+    }
+}
