@@ -3,7 +3,9 @@
 
 <nav class="navbar navbar-expand-lg header">
     <div class="wrapper-small">
-        <a id="language-small" class="nav-link header-link">EN</a>
+        <a id="language-small" class="nav-link header-link" (click)="languageModal.show()">{{ 'HEADER.LANGUAGE' |
+            translate
+            }}</a>
         <div class="nav-link-separator">
             <div></div>
         </div>
@@ -15,16 +17,39 @@
     <a class="navbar-brand" routerLink="/"><img class="logo" src="/assets/logo2.svg" /></a>
     <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
         <div class="navbar-nav ml-auto">
-            <a routerLink="/" class="nav-link header-link">HOME</a>
-            <a routerLink="/accommodation" class="nav-link header-link">ACCOMMODATION</a>
-            <a routerLink="/restaurant" class="nav-link header-link">RESTAURANT</a>
-            <a routerLink="/special-offers" class="nav-link header-link">SPECIAL OFFERS</a>
-            <a routerLink="/contact" class="nav-link header-link">CONTACT</a>
-            <a routerLink="/faq" class="nav-link header-link">FAQ</a>
+            <a routerLink="/" class="nav-link header-link">{{ 'COMMON.HOME' | translate }}</a>
+            <a routerLink="/accommodation" class="nav-link header-link">{{ 'COMMON.ACCOMMODATION' | translate }}</a>
+            <a routerLink="/restaurant" class="nav-link header-link">{{ 'COMMON.RESTAURANT' | translate }}</a>
+            <a routerLink="/special-offers" class="nav-link header-link">{{ 'COMMON.SPECIAL_OFFERS' | translate }}</a>
+            <a routerLink="/contact" class="nav-link header-link">{{ 'COMMON.CONTACT' | translate }}</a>
+            <a routerLink="/faq" class="nav-link header-link">{{ 'COMMON.FAQ' | translate }}</a>
             <div class="nav-link-separator d-none d-lg-flex">
                 <div></div>
             </div>
-            <div id="language-large" class="nav-link header-link">EN</div>
+            <div id="language-large" class="nav-link header-link" (click)="languageModal.show()">{{ 'HEADER.LANGUAGE' |
+                translate }}</div>
         </div>
     </div>
 </nav>
+
+<generic-modal #languageModal>
+    <div class="language-container" body>
+        <div class="d-flex justify-content-between w-100 px-3 py-2">
+            <div class="title">{{ 'HEADER.LANGUAGE_SELECT' | translate }}</div>
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <a class="standard-link-dark" (click)="languageModal.hide()">
+                    <fa-icon transform="grow-10" [icon]="faTimes"></fa-icon>
+                </a>
+            </div>
+
+        </div>
+        <div class="languages">
+            <div class="language">
+                <button class="standard-btn" (click)="changeLanguage('en'); languageModal.hide()">English</button>
+            </div>
+            <div class="language">
+                <button class="standard-btn" (click)="changeLanguage('rs'); languageModal.hide()">Srpski</button>
+            </div>
+        </div>
+    </div>
+</generic-modal>

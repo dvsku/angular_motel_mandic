@@ -18,6 +18,15 @@ import { RestaurantComponent } from './pages/restaurant/restaurant.component';
 import { SpecialOffersComponent } from './pages/special-offers/special-offers.component';
 import { LoadingOverlayComponent } from './components/loading-overlay/loading-overlay.component';
 import { AbstractStandardComponent } from './_abstract/abstract-standard/abstract-standard.component';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { AbstractTranslationComponent } from './_abstract/abstract-translation/abstract-translation.component';
+import { GenericModalComponent } from './components/generic-modal/generic-modal.component';
+
+export function HttpLoaderFactory(http: HttpClient) {
+    return new TranslateHttpLoader(http);
+}
 
 @NgModule({
     declarations: [
@@ -32,10 +41,28 @@ import { AbstractStandardComponent } from './_abstract/abstract-standard/abstrac
         RestaurantComponent,
         SpecialOffersComponent,
         LoadingOverlayComponent,
-        AbstractStandardComponent
+        AbstractStandardComponent,
+        AbstractTranslationComponent,
+        GenericModalComponent
     ],
-    imports: [BrowserModule, AppRoutingModule, FontAwesomeModule, NgbModule, InViewportModule],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        FontAwesomeModule,
+        NgbModule,
+        InViewportModule,
+        HttpClientModule,
+        TranslateModule.forRoot({
+            defaultLanguage: 'en',
+            loader: {
+                provide: TranslateLoader,
+                useFactory: HttpLoaderFactory,
+                deps: [HttpClient]
+            }
+        })
+    ],
     providers: [],
-    bootstrap: [AppComponent]
+    bootstrap: [AppComponent],
+    exports: [TranslateModule]
 })
 export class AppModule {}

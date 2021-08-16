@@ -10,32 +10,32 @@
             </div>
             <div class="details">
                 <div class="address">
-                    Motel Mandić, HIGHWAY E-75 BB, Vrbas, Subotica - Novi Sad 86km
+                    {{ 'CONTACT.ADDRESS' | translate }}
                 </div>
                 <div class="services">
                     <div class="service">
                         <div>
                             <fa-icon [icon]="faMotel" class="icon"></fa-icon>
                         </div>
-                        <div>00-24h motel</div>
+                        <div>{{ 'CONTACT.SERVICE_MOTEL' | translate }}</div>
                     </div>
                     <div class="service">
                         <div>
                             <fa-icon [icon]="faFuelStation" class="icon"></fa-icon>
                         </div>
-                        <div>00-24h fuel station</div>
+                        <div>{{ 'CONTACT.SERVICE_FUEL_STATION' | translate }}</div>
                     </div>
                     <div class="service">
                         <div>
                             <fa-icon [icon]="faStore" class="icon"></fa-icon>
                         </div>
-                        <div>00-24h convenience store</div>
+                        <div>{{ 'CONTACT.SERVICE_CONVENIENCE_STORE' | translate }}</div>
                     </div>
                     <div class="service">
                         <div>
                             <fa-icon [icon]="faRestaurant" class="icon"></fa-icon>
                         </div>
-                        <div>07-23h restaurant</div>
+                        <div>{{ 'CONTACT.SERVICE_RESTAURANT' | translate }}</div>
                     </div>
                 </div>
                 <div class="contacts">

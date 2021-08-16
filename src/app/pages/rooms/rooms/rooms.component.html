@@ -3,8 +3,7 @@
     <div id="information">
         <div #information class="d-flex flex-column check-in-text" snInViewport [inViewportOptions]="{ threshold: .4 }"
             (inViewportChange)="onIntersection($event, information)">
-            <div>Check in at any time. Check out by 12am. Rooms are pet friendly. Smoking is forbidden inside the rooms
-                but not on the balcony.</div>
+            <div>{{ 'ACCOMMODATION.DESCRIPTION' | translate }}</div>
         </div>
     </div>
     <div class="d-flex flex-column">
@@ -14,40 +13,41 @@
                 <img src="/assets/rooms.jpeg">
             </div>
             <div class="room-description">
-                <div class="room-title right-to-left">Single bed room</div>
+                <div class="room-title right-to-left">{{ 'ACCOMMODATION.ONE_BED_ROOM' | translate }}</div>
                 <ul class="pl-4">
-                    <li>1 SINGLE BED</li>
-                    <li>FREE WIFI</li>
-                    <li>FREE PARKING</li>
-                    <li>MINI-REFRIGERATOR</li>
-                    <li>SATELITTE TV</li>
-                    <li>PRIVATE BATHROOM WITH SHOWER</li>
-                    <li>HAIR DRYER</li>
-                    <li>AIR CONDITIONING/HEATING</li>
+                    <li>{{ 'ACCOMMODATION.ONE_BED' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.WIFI' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.PARKING' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.FRIDGE' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.TV' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.BATHROOM' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.HAIR_DRYER' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.AIR_CON' | translate }}</li>
                 </ul>
-                <div class="room-price">$25 PER NIGHT</div>
+                <div class="room-price">25€ {{ 'COMMON.PER_NIGHT' | translate }}</div>
                 <div class="d-flex">
-                    <a href="" class="room-book standard-link-btn">CONTACT US</a>
+                    <a href="" class="room-book standard-link-btn">{{ 'COMMON.CONTACT_US' | translate }}</a>
                 </div>
             </div>
         </div>
         <div class="room flex-column-reverse flex-lg-row" #room_2 snInViewport [inViewportOptions]="{ threshold: .35 }"
             (inViewportChange)="onIntersection($event, room_2)">
             <div class="room-description">
-                <div class="room-title left-to-right text-lg-right w-100">Three bed room</div>
+                <div class="room-title left-to-right text-lg-right w-100">{{ 'ACCOMMODATION.THREE_BED_ROOM' | translate
+                    }}</div>
                 <ul class="w-100 text-lg-right pr-lg-4 pl-4 pl-lg-0">
-                    <li>1 SINGLE BED AND 1 2-PERSON BED</li>
-                    <li>FREE WIFI</li>
-                    <li>FREE PARKING</li>
-                    <li>MINI-REFRIGERATOR</li>
-                    <li>SATELITTE TV</li>
-                    <li>PRIVATE BATHROOM WITH SHOWER</li>
-                    <li>HAIR DRYER</li>
-                    <li>AIR CONDITIONING/HEATING</li>
+                    <li>{{ 'ACCOMMODATION.THREE_BED' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.WIFI' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.PARKING' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.FRIDGE' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.TV' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.BATHROOM' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.HAIR_DRYER' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.AIR_CON' | translate }}</li>
                 </ul>
-                <div class="room-price w-100 text-lg-right">$75 PER NIGHT</div>
+                <div class="room-price w-100 text-lg-right">75€ {{ 'COMMON.PER_NIGHT' | translate }}</div>
                 <div class="d-flex flex-lg-row-reverse w-100">
-                    <a href="" class="room-book standard-link-btn">CONTACT US</a>
+                    <a href="" class="room-book standard-link-btn">{{ 'COMMON.CONTACT_US' | translate }}</a>
                 </div>
             </div>
             <div class="room-image">
@@ -60,20 +60,20 @@
                 <img src="/assets/rooms.jpeg">
             </div>
             <div class="room-description">
-                <div class="room-title right-to-left">Apartment</div>
+                <div class="room-title right-to-left">{{ 'ACCOMMODATION.APARTMENT' | translate }}</div>
                 <ul class="pl-4">
-                    <li>2 SINGLE BEDS AND 2 2-PERSON BEDS</li>
-                    <li>FREE WIFI</li>
-                    <li>FREE PARKING</li>
-                    <li>MINI-REFRIGERATOR</li>
-                    <li>SATELITTE TV</li>
-                    <li>PRIVATE BATHROOM WITH SHOWER</li>
-                    <li>HAIR DRYER</li>
-                    <li>AIR CONDITIONING/HEATING</li>
+                    <li>{{ 'ACCOMMODATION.APARTMENT_BED' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.WIFI' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.PARKING' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.FRIDGE' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.TV' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.BATHROOM' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.HAIR_DRYER' | translate }}</li>
+                    <li>{{ 'ACCOMMODATION.AIR_CON' | translate }}</li>
                 </ul>
-                <div class="room-price">$120 PER NIGHT</div>
+                <div class="room-price">120€ {{ 'COMMON.PER_NIGHT' | translate }}</div>
                 <div class="d-flex">
-                    <a href="" class="standard-link-btn room-book">CONTACT US</a>
+                    <a href="" class="standard-link-btn room-book">{{ 'COMMON.CONTACT_US' | translate }}</a>
                 </div>
             </div>
         </div>

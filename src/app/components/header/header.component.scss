@@ -318,4 +318,39 @@ p.title {
     }
 } */
     
+.language-container {
+    min-width: 0rem;
+    width: 100%;
+    max-width: 25rem;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4%;
 
+    @include media-breakpoint-up(md) {
+        min-width: 21.875rem;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .languages {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .language {
+            padding-top: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .language:last-child {
+            padding-bottom: 1rem;
+        }
+    }
+}

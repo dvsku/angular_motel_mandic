@@ -5,46 +5,31 @@
                 <div class="d-flex flex-column px-3 py-4">
                     <div>
                         <fa-icon [icon]="faCheck" class="contact-check pr-2"></fa-icon>
-                        <div class="d-inline-block contact-text">Free Parking</div>
+                        <div class="d-inline-block contact-text">{{ 'HOME.DIALOG.PARKING' | translate }}</div>
                     </div>
                     <div>
                         <fa-icon [icon]="faCheck" class="contact-check pr-2"></fa-icon>
-                        <div class="d-inline-block contact-text">Free WiFi</div>
+                        <div class="d-inline-block contact-text">{{ 'HOME.DIALOG.WIFI' | translate }}</div>
                     </div>
                     <div>
                         <fa-icon [icon]="faCheck" class="contact-check pr-2"></fa-icon>
-                        <div class="d-inline-block contact-text">Fuel Station</div>
+                        <div class="d-inline-block contact-text">{{ 'HOME.DIALOG.FUEL_STATION' | translate }}</div>
                     </div>
-                    <a href="" class="standard-link-btn mt-2" style="padding: 0.5rem 3rem;">CONTACT US</a>
+                    <a href="" class="standard-link-btn mt-2" style="padding: 0.5rem 3rem;">{{ 'COMMON.CONTACT_US' |
+                        translate }}</a>
                 </div>
             </div>
             <div class="info">
-                <div>
-                    MOTEL MANDIĆ
-                </div>
-                <div>
-                    RESTAURANT & LODGING
-                </div>
+                <div>{{ 'COMMON.NAME' | translate }}</div>
+                <div>{{ 'HOME.INFO.DESCRIPTION' | translate }}</div>
             </div>
         </div>
     </div>
     <div id="introduction">
         <div #introduction class="introduction-container" snInViewport [inViewportOptions]="{ threshold: 1 }"
             (inViewportChange)="onIntersection($event, introduction)">
-            <div>
-                We are like everyone, but not everyone is like us
-            </div>
-            <div>
-                Motel Mandić is located on Highway e-75, 22km from Novi Sad (100km from Belgrade) and 86km from
-                Subotica,
-                has
-                been welcoming guests from all around the World for over 20 years. Guests who have stayed at our
-                motel
-                gave
-                us only a words of praise for our hard work to make their stay as best as possible. We hope that you
-                will
-                also have a beautiful time at our motel.
-            </div>
+            <div>{{ 'HOME.INTRODUCTION.TITLE' | translate }}</div>
+            <div>{{ 'HOME.INTRODUCTION.DESCRIPTION' | translate }}</div>
         </div>
     </div>
     <div id="services">
@@ -54,10 +39,11 @@
                 <div class="image"></div>
                 <div class="overlay">
                     <div class="d-flex flex-column">
-                        <div class="service-title">ROOMS & APPARTMENTS</div>
+                        <div class="service-title">{{ 'HOME.SERVICES.ROOMS' | translate }}</div>
                         <div class="d-flex flex-row-reverse align-items-center">
-                            <a href="" class="standard-link-btn" style="padding: 0.5rem 1rem;">SEE ROOMS &
-                                APPARTMENTS</a>
+                            <a href="" class="standard-link-btn" style="padding: 0.5rem 1rem;">
+                                {{ 'HOME.SERVICES.ROOMS_SEE' | translate }}
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -69,9 +55,11 @@
                 <div class="image"></div>
                 <div class="overlay">
                     <div class="d-flex flex-column">
-                        <div class="service-title">RESTAURANT</div>
+                        <div class="service-title">{{ 'HOME.SERVICES.RESTAURANT' | translate }}</div>
                         <div class="d-flex flex-row-reverse align-items-center">
-                            <a href="" class="standard-link-btn" style="padding: 0.5rem 1rem;">SEE RESTAURANT</a>
+                            <a href="" class="standard-link-btn" style="padding: 0.5rem 1rem;">
+                                {{ 'HOME.SERVICES.RESTAURANT_SEE' | translate }}
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 <div class="container">
     <div style="padding-top: 3rem;">
         <div class="d-flex justify-content-center">
-            <div class="social-media-title">FIND US ON SOCIAL MEDIA</div>
+            <div class="social-media-title">{{ 'FOOTER.SOCIAL_MEDIA' | translate }}</div>
         </div>
         <div class="d-flex justify-content-center">
             <a href="" class="brand mr-4">
@@ -13,16 +13,16 @@
         </div>
     </div>
     <div class="sitemap">
-        <a routerLink="/">HOME</a>
-        <a routerLink="/accommodation">ACCOMMODATION</a>
-        <a href="">RESTAURANT</a>
-        <a href="">SPECIAL OFFERS</a>
-        <a href="">CONTACT</a>
-        <a href="">FAQ</a>
+        <a routerLink="/">{{ 'COMMON.HOME' | translate }}</a>
+        <a routerLink="/accommodation">{{ 'COMMON.ACCOMMODATION' | translate }}</a>
+        <a href="/restaurant">{{ 'COMMON.RESTAURANT' | translate }}</a>
+        <a href="/special-offers">{{ 'COMMON.SPECIAL_OFFERS' | translate }}</a>
+        <a href="/contact">{{ 'COMMON.CONTACT' | translate }}</a>
+        <a href="/faq">{{ 'COMMON.FAQ' | translate }}</a>
     </div>
     <div style="padding-top: 1rem;">
         <div class="d-flex justify-content-center align-items-center footer-text">
-            Motel Mandić, HIGHWAY E-75 BB, Vrbas, Subotica - Novi Sad 86km
+            {{ 'FOOTER.ADDRESS' | translate }}
         </div>
         <div class="d-flex justify-content-center align-items-center footer-text">
             021/723-266
