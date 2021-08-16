@@ -29,7 +29,6 @@ export class AbstractStandardComponent extends AbstractTranslationComponent impl
 
     ngOnInit(): void {
         this.loadingService.changeState(true);
-        console.log('changed state');
     }
 
     ngAfterViewInit(): void {

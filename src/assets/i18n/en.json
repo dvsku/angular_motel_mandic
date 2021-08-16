@@ -1,4 +1,12 @@
 {
+    "TITLES": {
+        "HOME": "Motel Mandić | Home",
+        "ACCOMMODATION": "Motel Mandić | Accommodation",
+        "RESTAURANT": "Motel Mandić | Restaurant",
+        "SPECIAL_OFFERS": "Motel Mandić | Special Offers",
+        "CONTACT": "Motel Mandić | Contact",
+        "FAQ": "Motel Mandić | FAQ"
+    },
     "COMMON": {
         "NAME": "MOTEL MANDIĆ",
         "HOME": "HOME",

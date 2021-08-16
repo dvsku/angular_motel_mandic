@@ -1,4 +1,12 @@
 {
+    "TITLES": {
+        "HOME": "Motel Mandić | Ana sayfa",
+        "ACCOMMODATION": "Motel Mandić | Konaklama",
+        "RESTAURANT": "Motel Mandić | Restoran",
+        "SPECIAL_OFFERS": "Motel Mandić | Özel teklifler",
+        "CONTACT": "Motel Mandić | İletişim",
+        "FAQ": "Motel Mandić | Sıkça Sorulan Sorular"
+    },
     "COMMON": {
         "NAME": "MOTEL MANDIĆ",
         "HOME": "ANA SAYFA",

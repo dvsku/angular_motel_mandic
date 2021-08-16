@@ -11,32 +11,32 @@ const routes: Routes = [
     {
         path: '',
         component: HomeComponent,
-        data: { title: 'LevelUp | Home', reuseRoute: true }
+        data: { title: 'TITLES.HOME', reuseRoute: true }
     },
     {
         path: 'accommodation',
         component: RoomsComponent,
-        data: { title: 'LevelUp | Rooms', reuseRoute: true }
+        data: { title: 'TITLES.ACCOMMODATION', reuseRoute: true }
     },
     {
         path: 'contact',
         component: ContactComponent,
-        data: { title: 'LevelUp | Contact', reuseRoute: true }
+        data: { title: 'TITLES.CONTACT', reuseRoute: true }
     },
     {
         path: 'faq',
         component: FaqComponent,
-        data: { title: 'LevelUp | Contact', reuseRoute: true }
+        data: { title: 'TITLES.FAQ', reuseRoute: true }
     },
     {
         path: 'restaurant',
         component: RestaurantComponent,
-        data: { title: 'LevelUp | Contact', reuseRoute: true }
+        data: { title: 'TITLES.RESTAURANT', reuseRoute: true }
     },
     {
         path: 'special-offers',
         component: SpecialOffersComponent,
-        data: { title: 'LevelUp | Contact', reuseRoute: true }
+        data: { title: 'TITLES.SPECIAL_OFFERS', reuseRoute: true }
     }
 ];
 
