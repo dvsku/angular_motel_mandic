@@ -9,7 +9,7 @@
     position: relative;
     height: 100vh;
     min-height: -webkit-fill-available;
-    background: url('/assets/motel-front4.jpeg') no-repeat center 30%;
+    background: url('/assets/motel-front.jpeg') no-repeat center 30%;
     background-size: cover;
     z-index: 996;
     
@@ -284,15 +284,6 @@
             @include animation(animation-opacity-fade-in, 1s, ease-out, 0s, forwards);
         }
     }
-}
-
-
-.contact-check {
-    color: $text-accent;
-}
-
-.contact-text {
-    letter-spacing: 0.10rem;
 }
 
 .service-title {

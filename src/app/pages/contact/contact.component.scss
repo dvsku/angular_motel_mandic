@@ -87,7 +87,7 @@
     &.visible {
         .address {
             @include media-breakpoint-up(lg) { 
-                @include animation(animation-room-title-right-to-left, .4s, ease-out, 0s, forwards);
+                @include animation(animation-fade-in-pop-right-to-left, .4s, ease-out, 0s, forwards);
             }
         }
 

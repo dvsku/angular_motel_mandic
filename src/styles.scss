@@ -1,6 +1,16 @@
 @import '_reset';
+@import '_mixins';
 @import '_variables';
-@import "../node_modules/ol/ol.css";
+
+// BOOTSTRAP
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/utilities/text";
+@import "~bootstrap/scss/utilities/sizing";
+
+@include letter-spacing();
 
 @font-face {
     font-family: 'Aktiv Grotesk';
@@ -10,7 +20,7 @@
         url('assets/fonts/AktivGroteskCorp-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
-  }
+}
 
 html {
     height: 100% !important;
@@ -27,8 +37,8 @@ body {
 }
 
 .standard-link-btn {
-    color: #FFFFFF;
-    background-color: $text-accent;
+    color: $link-btn-color;
+    background-color: $link-btn-background-color;
     text-align: center;
     font-size: 0.7rem;
     text-decoration: none;
@@ -37,26 +47,38 @@ body {
 
     &:hover {
         text-decoration: none;
-        color: #FFFFFF;
-        background-color: lighten($color: $text-accent, $amount: 5);
+        color: $link-btn-color-hover;
+        background-color: $link-btn-background-color-hover;
     }
 }
 
-.standard-link-dark {
-    color: #000000;
+.standard-link-light {
+    color: $link-color-light;
     text-decoration: none;
     transition: color .4s ease-out;
 
     &:hover {
         text-decoration: none;
-        color: $text-accent;
+        color: $link-color-dark-hover;
+        cursor: pointer;
+    }
+}
+
+.standard-link-dark {
+    color: $link-color-dark;
+    text-decoration: none;
+    transition: color .4s ease-out;
+
+    &:hover {
+        text-decoration: none;
+        color: $link-color-dark-hover;
         cursor: pointer;
     }
 }
 
 .standard-btn {
-    color: #FFFFFF;
-    background-color: $text-accent;
+    color: $btn-color;
+    background-color: $btn-background-color;
     text-align: center;
     font-size: 0.9rem;
     transition: background-color 0.4s ease-out;
@@ -67,13 +89,26 @@ body {
 
     &:hover {
         text-decoration: none;
-        color: #FFFFFF;
-        background-color: lighten($color: $text-accent, $amount: 5);
+        color: $btn-color-hover;
+        background-color: $btn-background-color-hover;
+        cursor: pointer;
     }
 
     &:focus {
         outline: none;
     }
+}
+
+.fc-light {
+    color: $font-color-light;
+}
+
+.fc-dark {
+    color: $font-color-dark;
+}
+
+.fc-accent {
+    color: $font-color-accent;
 }
 
 .flag {

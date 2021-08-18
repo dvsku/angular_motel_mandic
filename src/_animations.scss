@@ -24,16 +24,23 @@
 @include animation-opacity-fade-in(animation-opacity-fade-in);
 @include animation-scale(animation-scale-none-to-full, 0, 1);
 
+@include animation-fade-in-pop-x(animation-fade-in-pop-right-to-left, 0, 1, 50%, 0%);
+@include animation-fade-in-pop-x(animation-fade-in-pop-left-to-right, 0, 1, -50%, 0%);
+
 /////////////////////////////////////////////////////////////////////////////////////////
 // SPECIFIC USE CASE
 /////////////////////////////////////////////////////////////////////////////////////////
 
-@include animation-fade-in-pop-down(animation-room-information, 0, 1, -30%, 0%);
+// HOME
 @include animation-fade-in-pop-down(animation-home-introduction, 0, 1, -50%, 0%);
 
-@include animation-fade-in-pop-x(animation-room-title-right-to-left, 0, 1, 50%, 0%);
-@include animation-fade-in-pop-x(animation-room-title-left-to-right, 0, 1, -50%, 0%);
+// ACCOMMODATIONS
+@include animation-fade-in-pop-down(animation-room-information, 0, 1, -30%, 0%);
 
+// OVERLAY
 @include animation-overlay-fade-out(animation-overlay-fade-out);
+@include animation-logo-scale-loop(animation-overlay-logo);
 
-@include animation-logo-scale-loop(animation-overlay-logo)
+// HEADER
+@include animation-height-increase(animation-header-sticky-pop-down, 0rem, 3.625rem);
+@include animation-header-nav-fade-in-right-to-left(animation-header-nav-fade-in-right-to-left);

@@ -3,13 +3,22 @@
 
 $font-size-normal: 0.8rem;
 
-$text-accent: #2D9386;
+$link-color-light: #FFFFFF;
+$link-color-light-hover: #2D9386;
+$link-color-dark: #000000;
+$link-color-dark-hover: #2D9386;
 
-$color-first: #E0E0E0;
-$color-second: #FFFFFF;
-$color-fourth: #11ABE2;
-$color-fifth: #232323;
+$link-btn-color: #FFFFFF;
+$link-btn-color-hover: #FFFFFF;
+$link-btn-background-color: #2D9386;
+$link-btn-background-color-hover: lighten($color: $link-btn-background-color, $amount: 5);
 
-$font-color-first: $color-fifth;
+$btn-color: #FFFFFF;
+$btn-color-hover: #FFFFFF;
+$btn-background-color: #2D9386;
+$btn-background-color-hover: lighten($color: $btn-background-color, $amount: 5);
 
-$font-color-hover: $color-fourth;
+$font-color-light: #FFFFFF;
+$font-color-dark: #000000;
+$font-color-accent: #2D9386;
+

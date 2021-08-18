@@ -68,7 +68,7 @@
         .category.soups {
             .category-name {
                 @include media-breakpoint-up(lg) {  
-                    @include animation(animation-room-title-right-to-left, .3s, ease-out, 0s, forwards);
+                    @include animation(animation-fade-in-pop-right-to-left, .3s, ease-out, 0s, forwards);
                 }
             }
 
@@ -88,7 +88,7 @@
         .category.goulash {
             .category-name {
                 @include media-breakpoint-up(lg) {  
-                    @include animation(animation-room-title-right-to-left, .3s, ease-out, 0.6s, forwards);
+                    @include animation(animation-fade-in-pop-right-to-left, .3s, ease-out, 0.6s, forwards);
                 }
             }
 
@@ -108,7 +108,7 @@
         .category.meat {
             .category-name {
                 @include media-breakpoint-up(lg) {  
-                    @include animation(animation-room-title-right-to-left, .3s, ease-out, 1.2s, forwards);
+                    @include animation(animation-fade-in-pop-right-to-left, .3s, ease-out, 1.2s, forwards);
                 }
             }
 
@@ -128,7 +128,7 @@
         .category.salads {
             .category-name {
                 @include media-breakpoint-up(lg) {  
-                    @include animation(animation-room-title-right-to-left, .3s, ease-out, 4.4s, forwards);
+                    @include animation(animation-fade-in-pop-right-to-left, .3s, ease-out, 4.4s, forwards);
                 }
             }
 
@@ -148,7 +148,7 @@
         .category.sides {
             .category-name {
                 @include media-breakpoint-up(lg) {  
-                    @include animation(animation-room-title-right-to-left, .4s, ease-out, 5s, forwards);
+                    @include animation(animation-fade-in-pop-right-to-left, .4s, ease-out, 5s, forwards);
                 }
             }
 
