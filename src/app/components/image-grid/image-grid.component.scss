@@ -1,0 +1,22 @@
+@import '../../../variables';
+
+$image-max-width: 16rem;
+
+.image-grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax($image-max-width, 1fr));
+    justify-items: center;
+}
+
+.image {
+    max-width: $image-max-width;
+    width: 100%;
+    max-height: $image-max-width;
+    height: auto;
+
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

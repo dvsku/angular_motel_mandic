@@ -134,6 +134,11 @@
         .header-link {
             color: #000000;
             text-shadow: none;
+            transition: color .4s ease-out;
+
+            &:hover {
+                color: $font-color-accent;
+            }
         }
     
         .nav-link-separator {

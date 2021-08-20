@@ -26,7 +26,9 @@
                 </ul>
                 <div class="room-price">25€ {{ 'COMMON.PER_NIGHT' | translate }}</div>
                 <div class="d-flex">
-                    <a href="" class="room-book standard-link-btn">{{ 'COMMON.CONTACT_US' | translate }}</a>
+                    <a href="/contact" class="room-book standard-link-btn">{{ 'COMMON.CONTACT_US' | translate }}</a>
+                    <a class="standard-link-btn room-book ml-2"
+                        (click)="changeGallery(imagesSingle); galleryModal.show()">GALLERY</a>
                 </div>
             </div>
         </div>
@@ -47,7 +49,9 @@
                 </ul>
                 <div class="room-price w-100 text-lg-right">75€ {{ 'COMMON.PER_NIGHT' | translate }}</div>
                 <div class="d-flex flex-lg-row-reverse w-100">
-                    <a href="" class="room-book standard-link-btn">{{ 'COMMON.CONTACT_US' | translate }}</a>
+                    <a href="/contact" class="room-book standard-link-btn">{{ 'COMMON.CONTACT_US' | translate }}</a>
+                    <a class="standard-link-btn room-book mr-lg-2 ml-2"
+                        (click)="changeGallery(imagesTriple); galleryModal.show()">GALLERY</a>
                 </div>
             </div>
             <div class="room-image">
@@ -73,9 +77,30 @@
                 </ul>
                 <div class="room-price">120€ {{ 'COMMON.PER_NIGHT' | translate }}</div>
                 <div class="d-flex">
-                    <a href="" class="standard-link-btn room-book">{{ 'COMMON.CONTACT_US' | translate }}</a>
+                    <a href="/contact" class="standard-link-btn room-book">{{ 'COMMON.CONTACT_US' | translate }}</a>
+                    <a class="standard-link-btn room-book ml-2"
+                        (click)="changeGallery(imagesApartment); galleryModal.show()">GALLERY</a>
                 </div>
             </div>
         </div>
     </div>
 </three-row-grid>
+
+<generic-modal-wide #galleryModal>
+    <div class="gallery-container" body>
+        <div class="information">
+            <div class="d-flex flex-column justify-content-center align-items-center ml-auto">
+                <a class="standard-link-light" (click)="galleryModal.hide()">
+                    <fa-icon transform="grow-10" [icon]="faTimes"></fa-icon>
+                </a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <ngb-carousel *ngIf="selectedImages">
+                <ng-template *ngFor="let image of selectedImages" ngbSlide>
+                    <img class="carousel-image" [src]="image">
+                </ng-template>
+            </ngb-carousel>
+        </div>
+    </div>
+</generic-modal-wide>

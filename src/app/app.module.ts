@@ -23,6 +23,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AbstractTranslationComponent } from './_abstract/abstract-translation/abstract-translation.component';
 import { GenericModalComponent } from './components/generic-modal/generic-modal.component';
+import { ImageGridComponent } from './components/image-grid/image-grid.component';
+import { GenericModalWideComponent } from './components/generic-modal-wide/generic-modal-wide.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
     return new TranslateHttpLoader(http);
@@ -43,7 +45,9 @@ export function HttpLoaderFactory(http: HttpClient) {
         LoadingOverlayComponent,
         AbstractStandardComponent,
         AbstractTranslationComponent,
-        GenericModalComponent
+        GenericModalComponent,
+        ImageGridComponent,
+        GenericModalWideComponent
     ],
     imports: [
         BrowserModule,

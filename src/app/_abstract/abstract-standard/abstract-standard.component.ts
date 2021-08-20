@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, OnInit, Renderer2 } from '@angular/core';
+import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 import { TranslateService } from '@ngx-translate/core';
 import { CookieService } from 'ngx-cookie-service';
 import { LoadingService } from 'src/app/services/loading.service';
@@ -16,9 +17,11 @@ export class AbstractStandardComponent extends AbstractTranslationComponent impl
         private renderer: Renderer2,
         private loadingService: LoadingService,
         translate: TranslateService,
-        cookieService: CookieService
+        cookieService: CookieService,
+        config: NgbCarouselConfig
     ) {
         super(translate, cookieService);
+        config.interval = 0;
     }
 
     public onIntersection(visible: boolean, target: any): void {

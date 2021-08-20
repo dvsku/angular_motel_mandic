@@ -61,7 +61,7 @@
         }
     
         .service, .contact {
-            font-size: 1rem;
+            font-size: 1.2rem;
 
             @include media-breakpoint-up(lg) {
                 opacity: 0;
@@ -69,7 +69,7 @@
         }
     
         .address {
-            font-size: 1.2rem;
+            font-size: 1.4rem;
             padding: 0rem 0rem 1.5rem 0rem;
             opacity: 1;
 
@@ -103,7 +103,7 @@
 
         .contacts {
             @include media-breakpoint-up(lg) { 
-                @for $i from 1 through 3 {
+                @for $i from 1 through 5 {
                     .contact:nth-child(#{$i}) {
                         @include animation(animation-opacity-fade-in, .1s, linear, $i * 0.1s + 0.8s, forwards);
                     }
