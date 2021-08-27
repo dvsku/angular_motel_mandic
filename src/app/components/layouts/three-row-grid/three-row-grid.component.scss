@@ -1,12 +1,22 @@
+@import '../../../../variables';
+
 .three-row-layout {
     display: grid;
     grid-template-rows: 1fr auto
 }
 
 .three-row-layout-content {
-    grid-row: 1/2
+    grid-row: 1/2;
+
+    padding-bottom: 3rem;
+
+    background-color: $grid-content-background-color;
 }
     
 .three-row-layout-footer {
-    grid-row: 2/3
+    grid-row: 2/3;
+
+    box-shadow: 0px -6px 11px 0px rgba(0,0,0,0.4);
+
+    background-color: $grid-footer-background-color;
 }
