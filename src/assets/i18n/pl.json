@@ -47,7 +47,7 @@
         }
     },
     "ACCOMMODATION": {
-        "DESCRIPTION": "Check in at any time. Check out by 12am. Rooms are pet friendly. Smoking is forbidden inside the rooms but not on the balcony.",
+        "DESCRIPTION": "Zamelduj się w dowolnym momencie. Sprawdź do 12 rano. Pokoje przyjazne zwierzętom. Palenie w pokojach jest zabronione, ale dozwolone jest na balkonie.",
         "PARKING": "DARMOWY PARKING",
         "WIFI": "DARMOWE WIFI",
         "FRIDGE": "MINI LODÓWKA",
@@ -78,7 +78,8 @@
         "SERVICE_MOTEL": "00-24h motel",
         "SERVICE_FUEL_STATION": "00-24h stacja benzynowa",
         "SERVICE_CONVENIENCE_STORE": "00-24h sklep spożywczy",
-        "SERVICE_RESTAURANT": "07-23h restauracja"
+        "SERVICE_RESTAURANT": "07-23h restauracja",
+        "SERVICE_CAR": "Serwis pojazdów"
     },
     "FAQ": {
         "GENERAL_QUESTIONS": "OGÓLNE PYTANIA",

@@ -1,5 +1,13 @@
 import { Component } from '@angular/core';
-import { faEnvelope, faGasPump, faHotel, faPhoneAlt, faStoreAlt, faUtensils } from '@fortawesome/free-solid-svg-icons';
+import {
+    faEnvelope,
+    faGasPump,
+    faHotel,
+    faPhoneAlt,
+    faStoreAlt,
+    faUtensils,
+    faWrench
+} from '@fortawesome/free-solid-svg-icons';
 import { AbstractStandardComponent } from 'src/app/_abstract/abstract-standard/abstract-standard.component';
 
 @Component({
@@ -15,4 +23,5 @@ export class ContactComponent extends AbstractStandardComponent {
     public faFuelStation = faGasPump;
     public faStore = faStoreAlt;
     public faRestaurant = faUtensils;
+    public faWrench = faWrench;
 }

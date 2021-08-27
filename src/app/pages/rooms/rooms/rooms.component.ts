@@ -13,19 +13,19 @@ export class RoomsComponent extends AbstractStandardComponent {
     selectedImages: string[];
 
     imagesSingle: string[] = [
-        '/assets/accommodations/apartment/single_1.jpeg',
-        '/assets/accommodations/apartment/single_2.jpeg',
-        '/assets/accommodations/apartment/single_3.jpeg',
-        '/assets/accommodations/apartment/single_4.jpeg'
+        '/assets/accommodations/single/single_1.jpeg',
+        '/assets/accommodations/single/single_2.jpeg',
+        '/assets/accommodations/single/single_3.jpeg',
+        '/assets/accommodations/single/single_4.jpeg'
     ];
     imagesTriple: string[] = [
-        '/assets/accommodations/apartment/triple_1.jpeg',
-        '/assets/accommodations/apartment/triple_2.jpeg',
-        '/assets/accommodations/apartment/triple_3.jpeg',
-        '/assets/accommodations/apartment/triple_4.jpeg',
-        '/assets/accommodations/apartment/triple_5.jpeg',
-        '/assets/accommodations/apartment/triple_6.jpeg',
-        '/assets/accommodations/apartment/triple_7.jpeg'
+        '/assets/accommodations/triple/triple_1.jpeg',
+        '/assets/accommodations/triple/triple_2.jpeg',
+        '/assets/accommodations/triple/triple_3.jpeg',
+        '/assets/accommodations/triple/triple_4.jpeg',
+        '/assets/accommodations/triple/triple_5.jpeg',
+        '/assets/accommodations/triple/triple_6.jpeg',
+        '/assets/accommodations/triple/triple_7.jpeg'
     ];
     imagesApartment: string[] = [
         '/assets/accommodations/apartment/apartment_1.jpeg',

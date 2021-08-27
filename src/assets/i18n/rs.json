@@ -47,7 +47,7 @@
         }
     },
     "ACCOMMODATION": {
-        "DESCRIPTION": "Check in at any time. Check out by 12am. Rooms are pet friendly. Smoking is forbidden inside the rooms but not on the balcony.",
+        "DESCRIPTION": "Prijave su moguće u bilo koje vreme. Odjave su do 12h. U smeštaju su dozvoljeni kućni ljubimci. Pušenje je zabranjeno u sobama ali je dozvoljeno na terasi.",
         "PARKING": "BESPLATAN PARKING",
         "WIFI": "BESPLATAN WIFI",
         "FRIDGE": "MINI FRIŽIDER",
@@ -78,7 +78,8 @@
         "SERVICE_MOTEL": "00-24h motel",
         "SERVICE_FUEL_STATION": "00-24h benzinska pumpa",
         "SERVICE_CONVENIENCE_STORE": "00-24h market",
-        "SERVICE_RESTAURANT": "07-23h restoran"
+        "SERVICE_RESTAURANT": "07-23h restoran",
+        "SERVICE_CAR": "Servis vozila"
     },
     "FAQ": {
         "GENERAL_QUESTIONS": "OPŠTA PITANJA",

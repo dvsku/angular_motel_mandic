@@ -78,7 +78,8 @@
         "SERVICE_MOTEL": "00-24h motel",
         "SERVICE_FUEL_STATION": "00-24h fuel station",
         "SERVICE_CONVENIENCE_STORE": "00-24h convenience store",
-        "SERVICE_RESTAURANT": "07-23h restaurant"
+        "SERVICE_RESTAURANT": "07-23h restaurant",
+        "SERVICE_CAR": "Vehicle service"
     },
     "FAQ": {
         "GENERAL_QUESTIONS": "GENERAL QUESTIONS",
