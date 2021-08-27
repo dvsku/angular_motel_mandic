@@ -1,6 +1,6 @@
 <three-row-grid [dynamicNav]="false">
     <div id="front"></div>
-    <div class="restaurant-container" #container snInViewport [inViewportOptions]="{ threshold: .45 }"
+    <!-- <div class="restaurant-container" #container snInViewport [inViewportOptions]="{ threshold: .45 }"
         (inViewportChange)="onIntersection($event, container)">
         <div class="category soups">
             <div class="category-name">
@@ -157,5 +157,9 @@
                 </div>
             </div>
         </div>
+    </div> -->
+    <div class="restaurant-container" #container snInViewport [inViewportOptions]="{ threshold: .45 }"
+        (inViewportChange)="onIntersection($event, container)">
+        <img style="width: 100%; height: auto;" src="assets/food/menu.jpg" />
     </div>
 </three-row-grid>
