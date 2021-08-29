@@ -56,11 +56,11 @@
         "HAIR_DRYER": "SUSZARKA DO WŁOSÓW",
         "AIR_CON": "KLIMATYZACJA/OGRZEWANIE",
         "ONE_BED_ROOM": "Pokój jednoosobowy",
-        "ONE_BED": "1 POJEDYNCZE ŁÓŻKO",
+        "ONE_BED": "1 ŁÓŻKO",
         "THREE_BED_ROOM": "Pokój trzyosobowy",
-        "THREE_BED": "1 POJEDYNCZE ŁÓŻKO AND 1 ŁÓŻKO DWUOSOBOWE",
+        "THREE_BED": "3 ŁÓŻKA",
         "APARTMENT": "Apartament",
-        "APARTMENT_BED": "2 POJEDYŃCZE ŁÓŻKA AND 2 ŁÓŻKA DWUOSOBOWE"
+        "APARTMENT_BED": "7 ŁÓŻKA"
     },
     "RESTAURANT": {
         "SOUPS": "Zupy",
@@ -78,7 +78,7 @@
         "SERVICE_MOTEL": "00-24h motel",
         "SERVICE_FUEL_STATION": "00-24h stacja benzynowa",
         "SERVICE_CONVENIENCE_STORE": "00-24h sklep spożywczy",
-        "SERVICE_RESTAURANT": "07-23h restauracja",
+        "SERVICE_RESTAURANT": "07-22h restauracja",
         "SERVICE_CAR": "Serwis pojazdów"
     },
     "FAQ": {

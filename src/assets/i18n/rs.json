@@ -58,9 +58,9 @@
         "ONE_BED_ROOM": "JEDNOKREVETNA SOBA",
         "ONE_BED": "1 KREVET",
         "THREE_BED_ROOM": "TROKREVETNA SOBA",
-        "THREE_BED": "1 KREVET (ZA JEDNU OSOBU) I 1 KREVET (ZA DVE OSOBE)",
+        "THREE_BED": "3 KREVETA",
         "APARTMENT": "APARTMAN",
-        "APARTMENT_BED": "2 KREVETA (ZA JEDNU OSOBU) I 2 KREVETA (ZA DVE OSOBE)"
+        "APARTMENT_BED": "7 KREVETA"
     },
     "RESTAURANT": {
         "SOUPS": "Supe",
@@ -78,7 +78,7 @@
         "SERVICE_MOTEL": "00-24h motel",
         "SERVICE_FUEL_STATION": "00-24h benzinska pumpa",
         "SERVICE_CONVENIENCE_STORE": "00-24h market",
-        "SERVICE_RESTAURANT": "07-23h restoran",
+        "SERVICE_RESTAURANT": "07-22h restoran",
         "SERVICE_CAR": "Servis vozila"
     },
     "FAQ": {

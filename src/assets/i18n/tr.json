@@ -56,11 +56,11 @@
         "HAIR_DRYER": "SAÇ KURUTMA MAKİNESİ",
         "AIR_CON": "KLIMATIZASYON/ISITMA",
         "ONE_BED_ROOM": "Tek kişilik oda",
-        "ONE_BED": "1 TEK KİŞİLİK YATAK",
+        "ONE_BED": "1 YATAK",
         "THREE_BED_ROOM": "Üç kişilik oda",
-        "THREE_BED": "TEK KIŞILIK YATAK VE IKIZ YATAK",
+        "THREE_BED": "3 YATAKLAR",
         "APARTMENT": "Apartman",
-        "APARTMENT_BED": "2 TEK KIŞILIK YATAK VE 2 IKIZ YATAK"
+        "APARTMENT_BED": "7 YATAKLAR"
     },
     "RESTAURANT": {
         "SOUPS": "Çorbalar",
@@ -78,7 +78,7 @@
         "SERVICE_MOTEL": "00-24h motel",
         "SERVICE_FUEL_STATION": "00-24h benzin istasyonu",
         "SERVICE_CONVENIENCE_STORE": "00-24h market",
-        "SERVICE_RESTAURANT": "07-23h restoran",
+        "SERVICE_RESTAURANT": "07-22h restoran",
         "SERVICE_CAR": "Araç servisi"
     },
     "FAQ": {

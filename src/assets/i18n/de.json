@@ -56,11 +56,11 @@
         "HAIR_DRYER": "HAARTROCKNER",
         "AIR_CON": "KLIMAANLAGE/HEIZUNG",
         "ONE_BED_ROOM": "Zimmer mit einem Bett",
-        "ONE_BED": "1 EINZELBETT",
+        "ONE_BED": "1 BETT",
         "THREE_BED_ROOM": "Zimmer mit drei Betten",
-        "THREE_BED": "1 EINZELBETT & 1 ZWEI-PERSONEN-BETT",
+        "THREE_BED": "3 BETTEN",
         "APARTMENT": "Apartment",
-        "APARTMENT_BED": "2 EINZELBETTEN & 2 ZWEI-PERSONEN-BETTEN"
+        "APARTMENT_BED": "7 BETTEN"
     },
     "RESTAURANT": {
         "SOUPS": "Suppen",
@@ -78,7 +78,7 @@
         "SERVICE_MOTEL": "00-24h motel",
         "SERVICE_FUEL_STATION": "00-24h tankstelle",
         "SERVICE_CONVENIENCE_STORE": "00-24h gemischtwarenladen",
-        "SERVICE_RESTAURANT": "07-23h restaurant",
+        "SERVICE_RESTAURANT": "07-22h restaurant",
         "SERVICE_CAR": "Fahrzeugservice"
     },
     "FAQ": {

@@ -58,9 +58,9 @@
         "ONE_BED_ROOM": "Single bed room",
         "ONE_BED": "1 SINGLE BED",
         "THREE_BED_ROOM": "Three bed room",
-        "THREE_BED": "1 SINGLE BED AND 1 2-PERSON BED",
+        "THREE_BED": "3 SINGLE BEDS",
         "APARTMENT": "Apartment",
-        "APARTMENT_BED": "2 SINGLE BEDS AND 2 2-PERSON BEDS"
+        "APARTMENT_BED": "7 SINGLE BEDS"
     },
     "RESTAURANT": {
         "SOUPS": "Soups",
@@ -78,7 +78,7 @@
         "SERVICE_MOTEL": "00-24h motel",
         "SERVICE_FUEL_STATION": "00-24h fuel station",
         "SERVICE_CONVENIENCE_STORE": "00-24h convenience store",
-        "SERVICE_RESTAURANT": "07-23h restaurant",
+        "SERVICE_RESTAURANT": "07-22h restaurant",
         "SERVICE_CAR": "Vehicle service"
     },
     "FAQ": {
