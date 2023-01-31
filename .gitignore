@@ -1,5 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+node_modules/
+
 .vscode/
 .eslintignore
 .eslintrc.json
@@ -13,9 +15,6 @@ tslint.json
 /out-tsc
 # Only exists if Bazel was run
 /bazel-out
-
-# dependencies
-/node_modules
 
 # profiling files
 chrome-profiler-events*.json
@@ -51,3 +50,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
