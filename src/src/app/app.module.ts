@@ -10,7 +10,6 @@ import { ThreeRowGridComponent } from './components/layouts/three-row-grid/three
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
-import { InViewportModule } from '@thisissoon/angular-inviewport';
 import { RoomsComponent } from './pages/rooms/rooms/rooms.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FaqComponent } from './pages/faq/faq.component';
@@ -54,7 +53,6 @@ export function HttpLoaderFactory(http: HttpClient) {
         AppRoutingModule,
         FontAwesomeModule,
         NgbModule,
-        InViewportModule,
         HttpClientModule,
         TranslateModule.forRoot({
             defaultLanguage: 'en',
