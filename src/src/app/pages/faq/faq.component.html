@@ -1,7 +1,6 @@
 <three-row-grid [dynamicNav]="false">
     <div id="front"></div>
-    <div class="faq-container" #container snInViewport [inViewportOptions]="{ threshold: .45 }"
-        (inViewportChange)="onIntersection($event, container)">
+    <div class="faq-container">
         <div class="general-questions">
             <div class="text-center text-lg-right">{{ 'FAQ.GENERAL_QUESTIONS' | translate }}</div>
             <div>

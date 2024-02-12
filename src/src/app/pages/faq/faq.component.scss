@@ -21,16 +21,16 @@
         flex-direction: column;
         width: 100%;
 
-        @include media-breakpoint-up(lg) {  
+        @include media-breakpoint-up(lg) {
             flex-direction: row;
         }
 
-        > div:first-child {
+        >div:first-child {
             font-size: 1.2rem;
             font-weight: 600;
             padding-bottom: 1rem;
 
-            @include media-breakpoint-up(lg) {  
+            @include media-breakpoint-up(lg) {
                 flex-basis: 40%;
                 font-size: 1.2rem;
                 font-weight: 600;
@@ -38,54 +38,21 @@
             }
         }
 
-        > div:last-child {
+        >div:last-child {
             flex-basis: 60%;
         }
     }
 
     .question {
         font-size: 1.3rem;
-        
-        > div:first-child {
-            @include media-breakpoint-up(lg) {  
-                opacity: 0;
-                transform: translateX(50%);
-            }
-        }
 
         .answer {
             font-size: 1rem;
             padding-left: 1rem;
-
-            @include media-breakpoint-up(lg) {  
-                opacity: 0;
-            }
         }
     }
 
     .question:not(:last-child) {
         padding-bottom: .5rem;
-    }
-
-    &.visible {
-
-
-        @include media-breakpoint-up(lg) { 
-            @for $i from 1 through 20 {
-                .question:nth-child(#{$i}) {
-                    > div:first-child {
-                        @include media-breakpoint-up(lg) {  
-                            @include animation(animation-fade-in-pop-right-to-left, .4s, ease-out, $i * 0.4s, forwards);
-                        }
-                    }
-                    
-                    .answer {
-                        @include media-breakpoint-up(lg) {  
-                            @include animation(animation-opacity-fade-in, .4s, linear, $i * 0.4s + 0.5s, forwards);
-                        }
-                    }
-                }
-            }
-        }
     }
 }
