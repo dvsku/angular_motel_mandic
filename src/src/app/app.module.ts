@@ -27,7 +27,7 @@ import { GenericModalWideComponent } from './components/generic-modal-wide/gener
 import { InViewportModule } from 'ng-in-viewport';
 
 export function HttpLoaderFactory(http: HttpClient) {
-    return new TranslateHttpLoader(http);
+    return new TranslateHttpLoader(http, '/assets/i18n/');
 }
 
 @NgModule({
