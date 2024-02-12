@@ -38,16 +38,15 @@
             </div>
         </div>
     </div>
-    <div id="introduction">
-        <div #introduction class="introduction-container" snInViewport [inViewportOptions]="{ threshold: 1 }"
-            (inViewportChange)="onIntersection($event, introduction)">
+    <div id="introduction" inViewport [inViewportOptions]="{ threshold: [.4] }"
+        (inViewportAction)=" onIntersection($event)">
+        <div class="introduction-container">
             <div>{{ 'HOME.INTRODUCTION.TITLE' | translate }}</div>
             <div>{{ 'HOME.INTRODUCTION.DESCRIPTION' | translate }}</div>
         </div>
     </div>
-    <div id="services">
-        <div #rooms class="container-with-zoom-image rooms-container" snInViewport
-            [inViewportOptions]="{threshold : .25}" (inViewportChange)="onIntersection($event, rooms)">
+    <div id="services" inViewport [inViewportOptions]="{threshold : [.20]}" (inViewportAction)="onIntersection($event)">
+        <div class="container-with-zoom-image rooms-container">
             <a href="/accommodation">
                 <div class="image"></div>
                 <div class="overlay">
@@ -62,8 +61,7 @@
                 </div>
             </a>
         </div>
-        <div #restaurant class="container-with-zoom-image restaurant-container" snInViewport
-            [inViewportOptions]="{threshold : .25}" (inViewportChange)="onIntersection($event, restaurant)">
+        <div class="container-with-zoom-image restaurant-container">
             <a href="/restaurant">
                 <div class="image"></div>
                 <div class="overlay">
