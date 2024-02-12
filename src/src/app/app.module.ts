@@ -24,6 +24,7 @@ import { AbstractTranslationComponent } from './_abstract/abstract-translation/a
 import { GenericModalComponent } from './components/generic-modal/generic-modal.component';
 import { ImageGridComponent } from './components/image-grid/image-grid.component';
 import { GenericModalWideComponent } from './components/generic-modal-wide/generic-modal-wide.component';
+import { InViewportModule } from 'ng-in-viewport';
 
 export function HttpLoaderFactory(http: HttpClient) {
     return new TranslateHttpLoader(http);
@@ -54,6 +55,7 @@ export function HttpLoaderFactory(http: HttpClient) {
         FontAwesomeModule,
         NgbModule,
         HttpClientModule,
+        InViewportModule,
         TranslateModule.forRoot({
             defaultLanguage: 'en',
             loader: {
