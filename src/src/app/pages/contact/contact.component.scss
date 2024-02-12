@@ -26,95 +26,57 @@
     .information {
         display: flex;
         flex-direction: column-reverse;
-    
+
         @include media-breakpoint-up(lg) {
             flex-direction: row;
         }
-    
-        > * {
+
+        >* {
             flex-basis: 100%;
         }
-    
+
         .details {
             display: flex;
             flex-direction: column;
             justify-content: center;
             padding: 0rem 0rem 2rem 0rem;
-    
+
             @include media-breakpoint-up(lg) {
                 padding: 0rem 0rem 0rem 4rem;
             }
         }
-    
+
         .services {
             padding-bottom: 1rem;
         }
-    
+
         .service {
             display: flex;
-            > *:first-child {
+
+            >*:first-child {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 width: 1.5rem;
             }
         }
-    
-        .service, .contact {
-            font-size: 1.2rem;
 
-            @include media-breakpoint-up(lg) {
-                opacity: 0;
-            }
+        .service,
+        .contact {
+            font-size: 1.2rem;
         }
-    
+
         .address {
             font-size: 1.4rem;
             padding: 0rem 0rem 1.5rem 0rem;
             opacity: 1;
-
-            @include media-breakpoint-up(lg) {
-                opacity: 0;
-                transform: translateX(50%);
-            }
         }
     }
 
     @include media-breakpoint-up(lg) {
         padding: 2rem 6rem;
     }
-
-    &.visible {
-        .address {
-            @include media-breakpoint-up(lg) { 
-                @include animation(animation-fade-in-pop-right-to-left, .4s, ease-out, 0s, forwards);
-            }
-        }
-
-        .services {
-            @include media-breakpoint-up(lg) { 
-                @for $i from 1 through 5 {
-                    .service:nth-child(#{$i}) {
-                        @include animation(animation-opacity-fade-in, .1s, linear, $i * 0.1s + 0.4s, forwards);
-                    }
-                }
-            }
-        }
-
-        .contacts {
-            @include media-breakpoint-up(lg) { 
-                @for $i from 1 through 5 {
-                    .contact:nth-child(#{$i}) {
-                        @include animation(animation-opacity-fade-in, .1s, linear, $i * 0.1s + 0.9s, forwards);
-                    }
-                }
-            }
-        }
-        
-    }
 }
-
-
 
 .icon {
     display: inline-block;
