@@ -1,0 +1,107 @@
+{
+    "TITLES": {
+        "HOME": "Motel Mandić | Naslovna",
+        "ACCOMMODATION": "Motel Mandić | Smeštaj",
+        "RESTAURANT": "Motel Mandić | Restoran",
+        "SPECIAL_OFFERS": "Motel Mandić | Specijalne Ponude",
+        "CONTACT": "Motel Mandić | Kontakt",
+        "FAQ": "Motel Mandić | Najčešća pitanja"
+    },
+    "COMMON": {
+        "NAME": "MOTEL MANDIĆ",
+        "HOME": "NASLOVNA",
+        "ACCOMMODATION": "SMEŠTAJ",
+        "RESTAURANT": "RESTORAN",
+        "SPECIAL_OFFERS": "SPECIJALNE PONUDE",
+        "CONTACT": "KONTAKT",
+        "FAQ": "NAJČEŠCA PITANJA",
+        "CONTACT_US": "KONTAKTIRAJTE NAS",
+        "PER_NIGHT": "PO NOĆI"
+    },
+    "HEADER": {
+        "LANGUAGE": "RS",
+        "LANGUAGE_SELECT": "Izaberite jezik"
+    },
+    "FOOTER": {
+        "SOCIAL_MEDIA": "PRONAĐITE NAS NA DRUŠTVENIM MREŽAMA",
+        "ADDRESS": "Motel Mandić, AUTOPUT E-75 BB, Vrbas, Subotica - Novi Sad 86km"
+    },
+    "HOME": {
+        "DIALOG": {
+            "PARKING": "Besplatan Parking",
+            "WIFI": "Besplatan WiFi",
+            "FUEL_STATION": "Benzinska Pumpa"
+        },
+        "INFO": {
+            "DESCRIPTION": "RESTORAN I SMEŠTAJ"
+        },
+        "INTRODUCTION": {
+            "TITLE": "Mi jesmo kao svi, ali svi nisu kao mi",
+            "DESCRIPTION": "Motel Mandić se nalazi na Autoputu E-75, 22km od Novog Sada (100km od Beograda) i 86km od Subotice. Već više od 20 godina ugošćava posetioce iz raznih zemalja koji posećuju Srbiju. Gosti koji su boravili u našem motelu su imali samo reči hvale na naše gostoprimstvo i zalaganje da učinimo njihov boravak najlepšim mogućim. Nadamo se da ćete i Vi biti zadovoljni našim radom."
+        },
+        "SERVICES": {
+            "ROOMS": "SOBE I APARTMANI",
+            "ROOMS_SEE": "VIDI SOBE I APARTMANE",
+            "RESTAURANT": "RESTORAN",
+            "RESTAURANT_SEE": "VIDI RESTORAN"
+        }
+    },
+    "ACCOMMODATION": {
+        "DESCRIPTION": "Prijave su moguće u bilo koje vreme. Odjave su do 12h. U smeštaju su dozvoljeni kućni ljubimci. Pušenje je zabranjeno u sobama ali je dozvoljeno na terasi.",
+        "PARKING": "BESPLATAN PARKING",
+        "WIFI": "BESPLATAN WIFI",
+        "FRIDGE": "MINI FRIŽIDER",
+        "TV": "SATELITSKI TV",
+        "BATHROOM": "KUPATILO SA TUŠ KABINOM",
+        "HAIR_DRYER": "FEN ZA KOSU",
+        "AIR_CON": "KLIMA/GREJANJE",
+        "ONE_BED_ROOM": "JEDNOKREVETNA SOBA",
+        "ONE_BED": "1 KREVET",
+        "THREE_BED_ROOM": "TROKREVETNA SOBA",
+        "THREE_BED": "3 KREVETA",
+        "APARTMENT": "APARTMAN",
+        "APARTMENT_BED": "7 KREVETA"
+    },
+    "RESTAURANT": {
+        "SOUPS": "Supe",
+        "GOULASH": "Gulaš",
+        "MEAT": "Roštilj",
+        "SALADS": "Salate",
+        "SIDES": "Prilozi"
+    },
+    "SPECIAL_OFFERS": {
+        "TB_TITLE": "VOZAČI KAMIONA I AUTOBUSA",
+        "TB_DESCRIPTION": "Vozači kamiona dobijaju besplatno tuširanje, dok vozači autobusa imaju 3 besplatna obroka i 3 besplatna pića. Da biste iskoristili ovu ponudu, molimo vas da se javite na recepciju."
+    },
+    "CONTACT": {
+        "ADDRESS": "Motel Mandić, AUTOPUT E-75 BB, Vrbas, Subotica - Novi Sad 86km",
+        "SERVICE_MOTEL": "00-24h motel",
+        "SERVICE_FUEL_STATION": "00-24h benzinska pumpa",
+        "SERVICE_CONVENIENCE_STORE": "00-24h market",
+        "SERVICE_RESTAURANT": "07-22h restoran",
+        "SERVICE_CAR": "Servis vozila"
+    },
+    "FAQ": {
+        "GENERAL_QUESTIONS": "OPŠTA PITANJA",
+        "Q_1": "U koje vreme se možemo prijaviti/odjaviti u motel?",
+        "A_1": "Vreme za prijavu je ceo dan, dok je vreme za odjavu do 12h pre podne.",
+        "Q_2": "Možemo li se prijaviti kasno uveče?",
+        "A_2": "Mi radimo 24h sata, tako da nije problem ako dolazite kasno uveče. Uvek će neko biti na recepciji.",
+        "Q_3": "Da li imate WiFi?",
+        "A_3": "Da, imamo.",
+        "Q_4": "Da li imate parking?",
+        "A_4": "Da, imamo.",
+        "Q_5": "Da li imate bazen?",
+        "A_5": "Ne, nemamo",
+        "Q_6": "Da li imate dnevno čišćenje/održavanje soba?",
+        "A_6": "Da, imamo. Vreme čišćenja soba je od 7 ujutru do 7 uveče",
+        "Q_7": "Da li su kućni ljubmici dozvoljeni u sobama?",
+        "A_7": "Da, dozvoljeni su.",
+        "Q_8": "Da li se sme pušiti u sobama?",
+        "A_8": "Ne, ali svaka soba ima terasu na koju možete izaći da zapalite.",
+        "Q_9": "Da li imate sef u sobama?",
+        "A_9": "Da, u svakoj sobi se nalazi sef.",
+        "Q_10": "Da li imate radnju u blizini motela?",
+        "A_10": "Da, imamo."
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "TITLES": {
+        "HOME": "Motel Mandić | Home",
+        "ACCOMMODATION": "Motel Mandić | Accommodation",
+        "RESTAURANT": "Motel Mandić | Restaurant",
+        "SPECIAL_OFFERS": "Motel Mandić | Special Offers",
+        "CONTACT": "Motel Mandić | Contact",
+        "FAQ": "Motel Mandić | FAQ"
+    },
+    "COMMON": {
+        "NAME": "MOTEL MANDIĆ",
+        "HOME": "HOME",
+        "ACCOMMODATION": "ACCOMMODATION",
+        "RESTAURANT": "RESTAURANT",
+        "SPECIAL_OFFERS": "SPECIAL OFFERS",
+        "CONTACT": "CONTACT",
+        "FAQ": "FAQ",
+        "CONTACT_US": "CONTACT US",
+        "PER_NIGHT": "PER NIGHT"
+    },
+    "HEADER": {
+        "LANGUAGE": "EN",
+        "LANGUAGE_SELECT": "Select language"
+    },
+    "FOOTER": {
+        "SOCIAL_MEDIA": "FIND US ON SOCIAL MEDIA",
+        "ADDRESS": "Motel Mandić, HIGHWAY E-75 BB, Vrbas, Subotica - Novi Sad 86km"
+    },
+    "HOME": {
+        "DIALOG": {
+            "PARKING": "Free Parking",
+            "WIFI": "Free WiFi",
+            "FUEL_STATION": "Fuel Station"
+        },
+        "INFO": {
+            "DESCRIPTION": "RESTAURANT & LODGING"
+        },
+        "INTRODUCTION": {
+            "TITLE": "We are like everyone, but not everyone is like us",
+            "DESCRIPTION": "Motel Mandić is located on Highway e-75, 22km from Novi Sad (100km from Belgrade) and 86km from Subotica, has been welcoming guests from all around the World for over 20 years. Guests who have stayed at our motel gave us only a words of praise for our hard work to make their stay as best as possible. We hope that you will also have a wonderful time at our motel."
+        },
+        "SERVICES": {
+            "ROOMS": "ROOMS & APARTMENTS",
+            "ROOMS_SEE": "SEE ROOMS & APARTMENTS",
+            "RESTAURANT": "RESTAURANT",
+            "RESTAURANT_SEE": "SEE RESTAURANT"
+        }
+    },
+    "ACCOMMODATION": {
+        "DESCRIPTION": "Check in at any time. Check out by 12am. Rooms are pet friendly. Smoking is forbidden inside the rooms but not on the balcony.",
+        "PARKING": "FREE PARKING",
+        "WIFI": "FREE WIFI",
+        "FRIDGE": "MINI-REFRIGERATOR",
+        "TV": "SATELLITE TV",
+        "BATHROOM": "PRIVATE BATHROOM WITH SHOWER",
+        "HAIR_DRYER": "HAIR DRYER",
+        "AIR_CON": "AIR CONDITIONING/HEATING",
+        "ONE_BED_ROOM": "Single bed room",
+        "ONE_BED": "1 SINGLE BED",
+        "THREE_BED_ROOM": "Three bed room",
+        "THREE_BED": "3 SINGLE BEDS",
+        "APARTMENT": "Apartment",
+        "APARTMENT_BED": "7 SINGLE BEDS"
+    },
+    "RESTAURANT": {
+        "SOUPS": "Soups",
+        "GOULASH": "Goulash",
+        "MEAT": "Grilled meat",
+        "SALADS": "Salads",
+        "SIDES": "Side dishes"
+    },
+    "SPECIAL_OFFERS": {
+        "TB_TITLE": "TRUCK AND BUS DRIVERS",
+        "TB_DESCRIPTION": "We are providing some special offers for truck and bus drivers. Truck drivers get a free shower and bus drivers get 3 free meals and 3 free drinks. Please come to the reception to get the bonus."
+    },
+    "CONTACT": {
+        "ADDRESS": "Motel Mandić, HIGHWAY E-75 BB, Vrbas, Subotica - Novi Sad 86km",
+        "SERVICE_MOTEL": "00-24h motel",
+        "SERVICE_FUEL_STATION": "00-24h fuel station",
+        "SERVICE_CONVENIENCE_STORE": "00-24h convenience store",
+        "SERVICE_RESTAURANT": "07-22h restaurant",
+        "SERVICE_CAR": "Vehicle service"
+    },
+    "FAQ": {
+        "GENERAL_QUESTIONS": "GENERAL QUESTIONS",
+        "Q_1": "What time is check in/check out?",
+        "A_1": "Check in time is non-stop, while you can check out until 12am.",
+        "Q_2": "Can I check in late in the evening?",
+        "A_2": "We are open 24 hours a day, so there is no problem with you arriving late, as there is always somebody at the reception.",
+        "Q_3": "Do you have WiFi?",
+        "A_3": "Yes, we do.",
+        "Q_4": "Do you have parking?",
+        "A_4": "Yes, we do.",
+        "Q_5": "Do you have a pool?",
+        "A_5": "No, we don't.",
+        "Q_6": "Is there daily housekeeping?",
+        "A_6": "Yes, there is. Daily housekeeping is from 7am - 7pm.",
+        "Q_7": "Do you allow pets?",
+        "A_7": "Yes, we do allow pets inside the rooms.",
+        "Q_8": "Can I smoke in the room?",
+        "A_8": "No, but every room comes with a balcony, so if you have a need for a smoke you can go there.",
+        "Q_9": "Is there a safe in the room?",
+        "A_9": "Yes, there is a safe in every room.",
+        "Q_10": "Is there a shop in/near the motel?",
+        "A_10": "Yes, there is."
+    }
+}

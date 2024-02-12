@@ -1,0 +1,107 @@
+{
+    "TITLES": {
+        "HOME": "Motel Mandić | Ana sayfa",
+        "ACCOMMODATION": "Motel Mandić | Konaklama",
+        "RESTAURANT": "Motel Mandić | Restoran",
+        "SPECIAL_OFFERS": "Motel Mandić | Özel teklifler",
+        "CONTACT": "Motel Mandić | İletişim",
+        "FAQ": "Motel Mandić | Sıkça Sorulan Sorular"
+    },
+    "COMMON": {
+        "NAME": "MOTEL MANDIĆ",
+        "HOME": "ANA SAYFA",
+        "ACCOMMODATION": "KONAKLAMA",
+        "RESTAURANT": "RESTORAN",
+        "SPECIAL_OFFERS": "ÖZEL TEKLİFLER",
+        "CONTACT": "İLETİŞİM",
+        "FAQ": "SIKÇA SORULAN SORULAR",
+        "CONTACT_US": "BİZE ULAŞIN",
+        "PER_NIGHT": "GECELİK"
+    },
+    "HEADER": {
+        "LANGUAGE": "TR",
+        "LANGUAGE_SELECT": "Dil Seçin"
+    },
+    "FOOTER": {
+        "SOCIAL_MEDIA": "SOSYAL MEDYA",
+        "ADDRESS": "Motel Mandić, OTOYOL E-75 BB, Vrbas, Subotica - Novi Sad 86km"
+    },
+    "HOME": {
+        "DIALOG": {
+            "PARKING": "Ücretsiz Park",
+            "WIFI": "Ücretsiz WiFi",
+            "FUEL_STATION": "Benzin istasyonu"
+        },
+        "INFO": {
+            "DESCRIPTION": "RESTORAN & LOJMAN"
+        },
+        "INTRODUCTION": {
+            "TITLE": "Biz herkes gibiyiz ama herkes bizim gibi değil",
+            "DESCRIPTION": "Motel Mandić, E-75 karayolu üzerinde, Novi Sad'a 22 km (Belgrad'a 100 km) ve Subotica'ya 86 km uzaklıkta yer almaktadır ve 20 yılı aşkın bir süredir dünyanın her yerinden misafirleri ağırlamaktadır. Motelimizde kalan misafirlerimiz, konaklamalarını mümkün olan en iyi hale getirmek için gösterdiğimiz sıkı çalışmadan dolayı bize sadece övgü dolu sözler söylediler. Motelimizde de harika vakit geçireceğinizi umuyoruz."
+        },
+        "SERVICES": {
+            "ROOMS": "ODALAR VE APARTMANLAR",
+            "ROOMS_SEE": "ODALAR VE APARTMANLAR GÖRÜN",
+            "RESTAURANT": "RESTORAN",
+            "RESTAURANT_SEE": "RESTORAN GÖRÜN"
+        }
+    },
+    "ACCOMMODATION": {
+        "DESCRIPTION": "Check-in herhangi bir zamanda yapılabilir. Check-out saat 12'ye kadar mümkündür. Odalar evcil hayvan dostudur. Odalarda sigara içilmesine izin verilmemektedir, ancak balkonda sigara içilmesine izin verilmektedir.",
+        "PARKING": "ÜCRETSİZ PARK",
+        "WIFI": "ÜCRETSİZ WIFI",
+        "FRIDGE": "MİNİ BUZDOLABI",
+        "TV": "UYDU TV",
+        "BATHROOM": "DUŞLU ÖZEL BANYO",
+        "HAIR_DRYER": "SAÇ KURUTMA MAKİNESİ",
+        "AIR_CON": "KLIMATIZASYON/ISITMA",
+        "ONE_BED_ROOM": "Tek kişilik oda",
+        "ONE_BED": "1 YATAK",
+        "THREE_BED_ROOM": "Üç kişilik oda",
+        "THREE_BED": "3 YATAKLAR",
+        "APARTMENT": "Apartman",
+        "APARTMENT_BED": "7 YATAKLAR"
+    },
+    "RESTAURANT": {
+        "SOUPS": "Çorbalar",
+        "GOULASH": "Gulaş",
+        "MEAT": "Izgara et",
+        "SALADS": "Salatalar",
+        "SIDES": "Garnitür"
+    },
+    "SPECIAL_OFFERS": {
+        "TB_TITLE": "KAMYON VE OTOBÜS ŞÖFÖRLERİ",
+        "TB_DESCRIPTION": "Kamyon ve otobüs şoförleri için bazı özel teklifler sunuyoruz. Kamyon sürücülerine ücretsiz duş, otobüs sürücülerine 3 öğün yemek ve 3 ücretsiz içecek verilir. Bonusu almak için lütfen resepsiyona gelin."
+    },
+    "CONTACT": {
+        "ADDRESS": "Motel Mandić, OTOYOL E-75 BB, Vrbas, Subotica - Novi Sad 86km",
+        "SERVICE_MOTEL": "00-24h motel",
+        "SERVICE_FUEL_STATION": "00-24h benzin istasyonu",
+        "SERVICE_CONVENIENCE_STORE": "00-24h market",
+        "SERVICE_RESTAURANT": "07-22h restoran",
+        "SERVICE_CAR": "Araç servisi"
+    },
+    "FAQ": {
+        "GENERAL_QUESTIONS": "GENEL SORULAR",
+        "Q_1": "Giriş/çıkış saat kaçta?",
+        "A_1": "Check-in saati kesintisizdir, saat 12'ye kadar check-out yapabilirsiniz.",
+        "Q_2": "Akşam geç check-in yapabilir miyim?",
+        "A_2": "Günün 24 saati açığız, bu nedenle resepsiyonda her zaman birileri olduğu için geç gelmeniz sorun olmaz.",
+        "Q_3": "Sende kablosuz internet var mı?",
+        "A_3": "Evet yaparız.",
+        "Q_4": "Otoparkınız var mı?",
+        "A_4": "Evet yaparız.",
+        "Q_5": "Havuzunuz var mı?",
+        "A_5": "Hayır, yapmıyoruz.",
+        "Q_6": "Günlük temizlik var mı?",
+        "A_6": "Evet var. Günlük temizlik 07:00 - 19:00 arasındadır.",
+        "Q_7": "Evcil hayvanlara izin veriyor musunuz?",
+        "A_7": "Evet, evcil hayvanların odalara girmesine izin veriyoruz.",
+        "Q_8": "Odada sigara içebilir miyim?",
+        "A_8": "Hayır, ama her odada balkon var, yani bir sigaraya ihtiyacınız varsa oraya gidebilirsiniz.",
+        "Q_9": "Odada kasa var mı?",
+        "A_9": "Evet, her odada kasa bulunmaktadır.",
+        "Q_10": "Motelin içinde/yakınında bir dükkan var mı?",
+        "A_10": "Evet var."
+    }
+}
