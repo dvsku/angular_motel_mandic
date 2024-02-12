@@ -17,7 +17,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist/motel-mandic",
+                        "outputPath": "../docs",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
@@ -71,19 +71,19 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                      "host": "0.0.0.0",
+                        "host": "0.0.0.0",
                         "buildTarget": "motel-mandic:build"
                     },
                     "configurations": {
                         "production": {
-                          "buildTarget": "motel-mandic:build:production"
+                            "buildTarget": "motel-mandic:build:production"
                         }
                     }
                 },
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                      "buildTarget": "motel-mandic:build"
+                        "buildTarget": "motel-mandic:build"
                     }
                 },
                 "test": {
@@ -119,6 +119,6 @@
         }
     },
     "cli": {
-      "analytics": false
+        "analytics": false
     }
 }
