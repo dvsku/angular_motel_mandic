@@ -1,5 +1,5 @@
 import { Component, Input, Renderer2, ViewChild } from '@angular/core';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { TranslateService } from '@ngx-translate/core';
 import { CookieService } from 'ngx-cookie-service';
 import { AbstractTranslationComponent } from 'src/app/_abstract/abstract-translation/abstract-translation.component';
@@ -12,7 +12,6 @@ import { GenericModalComponent } from '../generic-modal/generic-modal.component'
 })
 export class HeaderComponent extends AbstractTranslationComponent {
     public isMenuCollapsed = true;
-    public faBars = faBars;
     public faTimes = faTimes;
 
     @Input('dynamicNav')
@@ -29,8 +28,9 @@ export class HeaderComponent extends AbstractTranslationComponent {
         this.isMenuCollapsed = !this.isMenuCollapsed;
     }
 
-    public onIntersection(visible, target): void {
+    public onIntersection({ target, visible }: { target: Element; visible: boolean }): void {
         const navbar: Element = this.renderer.nextSibling(target);
+
         if (visible && navbar && navbar.classList.contains('sticky')) {
             this.renderer.removeClass(navbar, 'sticky');
         } else if (!visible && navbar && !navbar.classList.contains('sticky')) {

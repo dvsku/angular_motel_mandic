@@ -21,28 +21,29 @@
     background-color: transparent;
     min-height: 3.125rem;
     max-height: 3.125rem;
+    box-sizing: border-box;
 
     @include media-breakpoint-up(lg) {
         min-height: 10rem;
         max-height: 10rem;
-        
+
     }
 
     .navbar-brand {
         max-width: 2.5rem;
         max-height: 2.5rem;
         padding: 0 0;
-        
+
         img {
             max-width: 2.5rem;
             max-height: 2.5rem;
         }
-    
+
         @include media-breakpoint-up(lg) {
             max-width: 9rem;
             max-height: 9rem;
             margin-right: 0;
-            
+
             img {
                 max-width: 8rem;
                 max-height: 8rem;
@@ -66,7 +67,7 @@
 
     .header-link {
         text-shadow: 0px 0px 4px rgba(0, 0, 0, .6);
-        transition:  text-shadow .2s linear, color .4s ease-out;
+        transition: text-shadow .2s linear, color .4s ease-out;
 
         &:hover {
             text-shadow: 0px 0px 4px rgba(0, 0, 0, .1);
@@ -89,7 +90,7 @@
         .big-logo {
             display: none;
         }
-        
+
         .small-logo {
             display: flex;
 
@@ -100,15 +101,16 @@
             max-width: 2.5rem;
             max-height: 2.5rem;
             padding-left: 1rem;
-    
+
             img {
                 max-width: 2.5rem;
                 max-height: 2.5rem;
+
                 @include media-breakpoint-up(lg) {
                     opacity: 0;
                     @include animation(animation-opacity-fade-in, 0.4s, ease-out, 0.25s, forwards);
                 }
-                
+
             }
         }
 
@@ -119,7 +121,7 @@
         .navbar-toggler {
             color: #000000;
         }
-    
+
         .navbar-collapse {
             margin-bottom: 0;
             margin-top: .25rem;
@@ -129,10 +131,11 @@
                 margin-top: 0rem;
                 box-shadow: none;
             }
-    
+
             .navbar-nav {
                 padding-right: 1rem;
                 letter-spacing: .25rem;
+
                 @include media-breakpoint-up(lg) {
                     opacity: 0;
                     transform: translateX(100%);
@@ -150,7 +153,7 @@
                 color: $font-color-accent;
             }
         }
-    
+
         .nav-link-separator {
             div {
                 background-color: rgba($color: #000000, $alpha: 0.5);
@@ -173,6 +176,7 @@
 
 .nav-link {
     padding-left: 1rem;
+
     @include media-breakpoint-up(lg) {
         padding-left: 0rem;
     }
@@ -182,6 +186,7 @@
     display: flex;
     align-items: center;
     padding: 0 0.5rem;
+
     div {
         display: inline-block;
         width: 1px;
@@ -195,7 +200,7 @@
     align-items: center;
     justify-content: center;
 }
-    
+
 .navbar-collapse {
     max-height: 40vh;
     overflow-y: scroll;
@@ -203,10 +208,10 @@
     overflow: hidden;
 
     @include media-breakpoint-up(lg) {
-          background-color: transparent;
+        background-color: transparent;
     }
 }
-    
+
 .wrapper-small {
     display: flex;
     align-items: center;
@@ -218,9 +223,8 @@
 }
 
 #language-small {
-    display: inline-block;
-    text-align: center;
-    padding: 0 .625rem 0 0;
+    padding: 0.2rem .625rem 0 0;
+
     @include media-breakpoint-up(lg) {
         display: none;
     }
@@ -228,6 +232,7 @@
 
 #language-large {
     display: none;
+
     @include media-breakpoint-up(lg) {
         display: block;
     }
@@ -237,7 +242,7 @@
     padding: 0;
     height: 3.125rem;
 }
-    
+
 .language-container {
     min-width: 0rem;
     width: 100%;
@@ -281,11 +286,15 @@
             padding-bottom: 1rem;
         }
     }
+
+    >div:first-child {
+        width: 100%;
+    }
 }
 
 .big-logo {
     display: flex;
-            align-items: center;
+    align-items: center;
 }
 
 .small-logo {
