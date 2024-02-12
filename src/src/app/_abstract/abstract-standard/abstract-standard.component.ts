@@ -4,6 +4,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { CookieService } from 'ngx-cookie-service';
 import { LoadingService } from 'src/app/services/loading.service';
 import { AbstractTranslationComponent } from '../abstract-translation/abstract-translation.component';
+import { InViewportAction } from 'ng-in-viewport';
 
 @Component({
     selector: 'app-abstract-standard',
@@ -18,15 +19,15 @@ export class AbstractStandardComponent extends AbstractTranslationComponent impl
         private loadingService: LoadingService,
         translate: TranslateService,
         cookieService: CookieService,
-        config: NgbCarouselConfig
-    ) {
+        config: NgbCarouselConfig) 
+    {
         super(translate, cookieService);
         config.interval = 0;
     }
 
-    public onIntersection(visible: boolean, target: any): void {
-        if (visible && !target.classList.contains(AbstractStandardComponent.CLASS_NAME_VISIBLE)) {
-            this.renderer.addClass(target, AbstractStandardComponent.CLASS_NAME_VISIBLE);
+    public onIntersection(event: InViewportAction): void {
+        if (event.visible && !event.target.classList.contains(AbstractStandardComponent.CLASS_NAME_VISIBLE)) {
+            this.renderer.addClass(event.target, AbstractStandardComponent.CLASS_NAME_VISIBLE);
         }
     }
 
