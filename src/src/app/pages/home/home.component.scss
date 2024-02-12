@@ -9,7 +9,6 @@
     position: relative;
     height: 100vh;
     min-height: -webkit-fill-available;
-    background: url('/assets/motel-front.jpeg') no-repeat center 30%;
     background-size: cover;
     z-index: 996;
 
@@ -173,64 +172,13 @@
 
     .rooms-container {
         .image {
-            background: url('/assets/rooms.jpeg') no-repeat center center;
             background-size: cover;
         }
     }
 
     .restaurant-container {
         .image {
-            background: url('/assets/restaurant.jpeg') no-repeat center center;
             background-size: cover;
-        }
-    }
-}
-
-/////////////////////////////////////////////////////////////////////////////////////////
-// SPECIAL OFFERS
-/////////////////////////////////////////////////////////////////////////////////////////
-
-#special-offers {
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-
-    .offers-image-container {
-        .image {
-            background: url('/assets/special-offers.jpeg') no-repeat center center;
-            background-size: cover;
-        }
-    }
-
-    .offers-container {
-        flex: 50%;
-        height: 75vh;
-        z-index: 998;
-        overflow: hidden;
-        position: relative;
-
-        .overlay {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            color: #000000;
-            text-decoration: none;
-            text-align: left;
-            justify-content: space-between;
-
-            >div:first-child {
-                flex-grow: 1;
-                padding: 2rem 2.5rem 0 4rem;
-            }
-
-            >div:last-child {
-                padding: 0 2.5rem 2.5rem 0;
-            }
-
-            &:hover {
-                color: #000000;
-            }
         }
     }
 }

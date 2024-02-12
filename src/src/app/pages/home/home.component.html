@@ -1,5 +1,5 @@
 <three-row-grid>
-    <div id="front">
+    <div id="front" style="background: url('assets/motel-front.jpeg') no-repeat center 30%">
         <div class="overlay">
             <div class="contact">
                 <div class="d-flex flex-column px-4 py-4">
@@ -48,7 +48,7 @@
     <div id="services" inViewport [inViewportOptions]="{threshold : [.20]}" (inViewportAction)="onIntersection($event)">
         <div class="container-with-zoom-image rooms-container">
             <a href="/accommodation">
-                <div class="image"></div>
+                <div class="image" style="background: url('assets/rooms.jpeg') no-repeat center center"></div>
                 <div class="overlay">
                     <div class="d-flex flex-column">
                         <div class="service-title">{{ 'HOME.SERVICES.ROOMS' | translate }}</div>
@@ -63,7 +63,7 @@
         </div>
         <div class="container-with-zoom-image restaurant-container">
             <a href="/restaurant">
-                <div class="image"></div>
+                <div class="image" style="background: url('assets/restaurant.jpeg') no-repeat center center"></div>
                 <div class="overlay">
                     <div class="d-flex flex-column">
                         <div class="service-title">{{ 'HOME.SERVICES.RESTAURANT' | translate }}</div>
