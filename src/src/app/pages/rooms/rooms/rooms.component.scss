@@ -15,19 +15,6 @@
     @include media-breakpoint-up(lg) {
         padding: 0rem 8rem;
     }
-
-    > div {
-        @include media-breakpoint-up(lg) {
-            opacity: 0;
-            transform: translateY(-30%);
-        }
-
-        &.visible {
-            @include media-breakpoint-up(lg) {
-                @include animation(animation-room-information, .4s, ease-out, 0s, forwards);
-            }
-        }
-    }
 }
 
 .check-in-text {
@@ -51,21 +38,20 @@
         min-height: 50vh;
         padding: 0rem 3rem;
     }
-    
-    .room-image, .room-description {
+
+    .room-image,
+    .room-description {
         flex: 100%;
+
         @include media-breakpoint-up(lg) {
             flex: 50%;
         }
     }
 
     .room-image {
-        > img {
+        >img {
             width: 100%;
             height: 100%;
-            @include media-breakpoint-up(lg) {
-                opacity: 0;
-            }
         }
     }
 
@@ -80,77 +66,12 @@
             padding: 2rem 4rem;
         }
 
-        .room-title.right-to-left {
-            @include media-breakpoint-up(lg) {
-                opacity: 0;
-                transform: translateX(50%);
-            }
-        }
-
-        .room-title.left-to-right {
-            @include media-breakpoint-up(lg) {
-                opacity: 0;
-                transform: translateX(-50%);
-            }
-        }
-
         ul {
             margin-top: .5rem;
             list-style-type: none;
 
             li {
                 font-size: 0.9rem;
-                @include media-breakpoint-up(lg) {
-                    opacity: 0;
-                }
-            }
-        }
-    }
-
-    &.visible {
-        .room-image {
-            > img {
-                opacity: 1;
-                @include media-breakpoint-up(lg) {
-                    opacity: 0;
-                    @include animation(animation-opacity-fade-in, 1s, ease-out, 0s, forwards);
-                }
-            }
-        }
-
-        .room-description {
-            .room-title.right-to-left {
-                @include media-breakpoint-up(lg) {
-                    @include animation(animation-fade-in-pop-right-to-left, .4s, ease-out, 0s, forwards);
-                }
-            }
-
-            .room-title.left-to-right {
-                @include media-breakpoint-up(lg) {
-                    @include animation(animation-fade-in-pop-left-to-right, .4s, ease-out, 0s, forwards);
-                }
-            }
-
-            ul {
-                @include media-breakpoint-up(lg) { 
-                    @for $i from 1 through 15 {
-                        li:nth-child(#{$i}) {
-                            @include animation(animation-opacity-fade-in, .1s, linear, $i * 0.1s + 0.4s, forwards);
-                        }
-                    }
-                }
-            }
-        }
-
-        .room-price {
-            @include media-breakpoint-up(lg) {
-                @include animation(animation-opacity-fade-in, .4s, ease-out, 1.4s, forwards);
-            }
-        }
-
-        .room-book {
-            @include media-breakpoint-up(lg) {
-                @include animation(animation-scale-none-to-full, .5s, ease-out, 1.6s, forwards);
             }
         }
     }
@@ -164,16 +85,6 @@
 
 .room-price {
     font-size: 1rem;
-
-    @include media-breakpoint-up(lg) {
-        opacity: 0;
-    }
-}
-
-.room-book {
-    @include media-breakpoint-up(lg) {
-        transform: scale(0);
-    }
 }
 
 .gallery-container {

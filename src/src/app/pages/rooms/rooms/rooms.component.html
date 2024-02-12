@@ -1,19 +1,15 @@
 <three-row-grid [dynamicNav]="false">
     <div id="front"></div>
-    <div id="information">
-        <div #information class="d-flex flex-column check-in-text" snInViewport [inViewportOptions]="{ threshold: .4 }"
-            (inViewportChange)="onIntersection($event, information)">
-            <div>{{ 'ACCOMMODATION.DESCRIPTION' | translate }}</div>
-        </div>
+    <div class="d-flex flex-column check-in-text">
+        <div>{{ 'ACCOMMODATION.DESCRIPTION' | translate }}</div>
     </div>
     <div class="d-flex flex-column">
-        <div class="room flex-column flex-lg-row" #room_1 snInViewport [inViewportOptions]="{ threshold: .35 }"
-            (inViewportChange)="onIntersection($event, room_1)">
+        <div class="room flex-column flex-lg-row">
             <div class="room-image">
                 <img src="/assets/accommodations/single_featured.jpeg">
             </div>
             <div class="room-description">
-                <div class="room-title right-to-left">{{ 'ACCOMMODATION.ONE_BED_ROOM' | translate }}</div>
+                <div class="room-title">{{ 'ACCOMMODATION.ONE_BED_ROOM' | translate }}</div>
                 <ul class="pl-4">
                     <li>{{ 'ACCOMMODATION.ONE_BED' | translate }}</li>
                     <li>{{ 'ACCOMMODATION.WIFI' | translate }}</li>
@@ -26,18 +22,17 @@
                 </ul>
                 <div class="room-price">25€ {{ 'COMMON.PER_NIGHT' | translate }}</div>
                 <div class="d-flex">
-                    <a href="/contact" class="room-book standard-link-btn">{{ 'COMMON.CONTACT_US' | translate }}</a>
-                    <a class="standard-link-btn room-book ml-2"
+                    <a href="/contact" class="standard-link-btn">{{ 'COMMON.CONTACT_US' | translate }}</a>
+                    <a class="standard-link-btn ms-2"
                         (click)="changeGallery(imagesSingle); galleryModal.show()">GALLERY</a>
                 </div>
             </div>
         </div>
-        <div class="room flex-column-reverse flex-lg-row" #room_2 snInViewport [inViewportOptions]="{ threshold: .35 }"
-            (inViewportChange)="onIntersection($event, room_2)">
+        <div class="room flex-column-reverse flex-lg-row">
             <div class="room-description">
-                <div class="room-title left-to-right text-lg-right w-100">{{ 'ACCOMMODATION.THREE_BED_ROOM' | translate
+                <div class="room-title text-lg-end w-100">{{ 'ACCOMMODATION.THREE_BED_ROOM' | translate
                     }}</div>
-                <ul class="w-100 text-lg-right pr-lg-4 pl-4 pl-lg-0">
+                <ul class="w-100 text-lg-end pr-lg-4 pl-4 pl-lg-0">
                     <li>{{ 'ACCOMMODATION.THREE_BED' | translate }}</li>
                     <li>{{ 'ACCOMMODATION.WIFI' | translate }}</li>
                     <li>{{ 'ACCOMMODATION.PARKING' | translate }}</li>
@@ -47,10 +42,10 @@
                     <li>{{ 'ACCOMMODATION.HAIR_DRYER' | translate }}</li>
                     <li>{{ 'ACCOMMODATION.AIR_CON' | translate }}</li>
                 </ul>
-                <div class="room-price w-100 text-lg-right">75€ {{ 'COMMON.PER_NIGHT' | translate }}</div>
+                <div class="room-price w-100 text-lg-end">75€ {{ 'COMMON.PER_NIGHT' | translate }}</div>
                 <div class="d-flex flex-lg-row-reverse w-100">
-                    <a href="/contact" class="room-book standard-link-btn">{{ 'COMMON.CONTACT_US' | translate }}</a>
-                    <a class="standard-link-btn room-book mr-lg-2 ml-2"
+                    <a href="/contact" class="standard-link-btn">{{ 'COMMON.CONTACT_US' | translate }}</a>
+                    <a class="standard-link-btn me-lg-2 ms-2"
                         (click)="changeGallery(imagesTriple); galleryModal.show()">GALLERY</a>
                 </div>
             </div>
@@ -58,13 +53,12 @@
                 <img src="/assets/accommodations/triple_featured.jpeg">
             </div>
         </div>
-        <div class="room flex-column flex-lg-row" #room_3 snInViewport [inViewportOptions]="{ threshold: .35 }"
-            (inViewportChange)="onIntersection($event, room_3)">
+        <div class="room flex-column flex-lg-row">
             <div class="room-image">
                 <img src="/assets/accommodations/apartment_featured.jpeg">
             </div>
             <div class="room-description">
-                <div class="room-title right-to-left">{{ 'ACCOMMODATION.APARTMENT' | translate }}</div>
+                <div class="room-title">{{ 'ACCOMMODATION.APARTMENT' | translate }}</div>
                 <ul class="pl-4">
                     <li>{{ 'ACCOMMODATION.APARTMENT_BED' | translate }}</li>
                     <li>{{ 'ACCOMMODATION.WIFI' | translate }}</li>
@@ -77,8 +71,8 @@
                 </ul>
                 <div class="room-price">120€ {{ 'COMMON.PER_NIGHT' | translate }}</div>
                 <div class="d-flex">
-                    <a href="/contact" class="standard-link-btn room-book">{{ 'COMMON.CONTACT_US' | translate }}</a>
-                    <a class="standard-link-btn room-book ml-2"
+                    <a href="/contact" class="standard-link-btn">{{ 'COMMON.CONTACT_US' | translate }}</a>
+                    <a class="standard-link-btn ms-2"
                         (click)="changeGallery(imagesApartment); galleryModal.show()">GALLERY</a>
                 </div>
             </div>
