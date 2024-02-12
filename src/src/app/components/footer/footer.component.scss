@@ -3,7 +3,8 @@
 .brand-icon {
     font-size: 2.5rem;
 
-    &.facebook, &.twitter {
+    &.facebook,
+    &.twitter {
         color: #78787B;
         transition: color .3s ease-out;
     }
@@ -30,13 +31,13 @@
     margin: 1rem 0rem 0rem 0rem;
     border-top: 1px solid rgba(120, 120, 120, 0.3);
     border-bottom: 1px solid rgba(120, 120, 120, 0.3);
-    
+
     @include media-breakpoint-up(lg) {
         flex-direction: row;
         padding: 2rem 0rem;
     }
 
-    > a {
+    >a {
         font-size: .8rem;
         color: #78787B;
         text-decoration: none;
@@ -49,7 +50,9 @@
         }
     }
 
-    > a:not(:last-child) {
+    >a:not(:last-child) {
+        margin-bottom: .5rem;
+
         @include media-breakpoint-up(lg) {
             margin-right: 1rem;
         }
